@@ -1,5 +1,5 @@
 ---
-layout: base.njk
+layout: base
 description: No nonsense software development!
 tags: main
 eleventyNavigation:
@@ -7,4 +7,4 @@ eleventyNavigation:
   order: 0
 ---
 
-{% renderFile "./src/site/_fragments/intro.md" %}
+## Welcome

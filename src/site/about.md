@@ -1,9 +1,9 @@
 ---
-layout: page.njk
-title: About this starter template
+layout: page
+title: Who am I
 draft: true
 tags: main
 eleventyNavigation:
-  key: About
+  key: Who am I
   order: 1
 ---
