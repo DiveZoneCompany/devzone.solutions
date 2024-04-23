@@ -37,6 +37,9 @@
     "postcss-load-config": "^5.0.3",
     "postcss-scss": "^4.0.9",
     "prettier": "^3.2.5",
-    "sass": "^1.72.0"
+    "sass": "^1.75.0"
+  },
+  "overrides": {
+    "nunjucks": ">=3.2.4"
   }
 }
