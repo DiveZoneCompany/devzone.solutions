@@ -1,12 +1,43 @@
-{% assign pages = collections.main | eleventyNavigation %}
+{% assign pages = collections.all | eleventyNavigation %}
+{% assign parent = null %}
 <header>
-    <nav class="header-nav">
-        <ul role="list" class="nav-list">
-            {%- for entry in pages %}
-                <li {% if entry.url == page.url %} class="active" {% endif %}>
-                    <a href="{{ entry.url | url }}">{{ entry.title }}</a>
-                </li>
-            {%- endfor %}
-        </ul>
+  <div class="header-logo">
+    <a href="/">{% include './logo', titlePart1: 'DEV', postTitle: 'SOLUTIONS' %}</a>
+  </div>
+  <div class="header-nav">
+    <nav class="header-nav-main">
+      <ul role="list" class="nav-list">
+        {%- for entry in pages %}
+          <li
+            {% if page.url contains entry.url %}
+              class="active"
+            {% endif %}
+          >
+            <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+            {% if entry.children != empty %}
+              {% if page.url contains entry.url %}
+                {% assign parent = entry.key %}
+              {% endif %}
+            {% endif %}
+          </li>
+        {%- endfor %}
+      </ul>
     </nav>
+    {% if parent %}
+      {% assign children = collections.all | eleventyNavigation: parent %}
+      <nav class="header-nav-sub">
+        <ul role="list" class="nav-list">
+          {%- for entry in children %}
+            <li
+              {% if entry.url == page.url %}
+                class="active"
+              {% endif %}
+            >
+              <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+            </li>
+          {%- endfor %}
+        </ul>
+      </nav>
+    {% endif %}
+  </div>
 </header>

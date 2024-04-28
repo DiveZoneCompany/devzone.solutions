@@ -1,10 +1,21 @@
 footer {
   max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 1rem auto;
   text-align: center;
 
-  .trademarks {
+  .footer--copyright {
+    font-size: large;
+    border-top: 1px solid darkgreen;
+    border-bottom: 1px solid darkgreen;
+    padding: 0.2rem;
+    margin: 0.5rem 0;
+  }
+
+  .footer--fathom {
     font-size: x-small;
+  }
+
+  .footer--trademarks {
+    font-size: small;
   }
 }

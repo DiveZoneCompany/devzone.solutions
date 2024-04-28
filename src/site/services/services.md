@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Who am I
+title: Services
 draft: true
 eleventyNavigation:
-  key: Who am I
-  order: 1
+  key: Services
+  order: 2
 ---
