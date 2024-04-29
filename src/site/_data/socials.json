@@ -1,0 +1,37 @@
+[
+  {
+    "key": "LinkedIn-me",
+    "url": "https://www.linkedin.com/in/wjboogerd/",
+    "icon": "fab fa-linkedin"
+  },
+  {
+    "key": "LinkedIn",
+    "url": "https://linkedin.com/company/devzoneone",
+    "icon": "fab fa-linkedin"
+  },
+  {
+    "key": "Twitter",
+    "url": "https://twitter.com/DevZoneOne",
+    "icon": "fab fa-twitter-square"
+  },
+  {
+    "key": "Facebook",
+    "url": "https://www.facebook.com/DevZoneOne",
+    "icon": "fab fa-facebook-square"
+  },
+  {
+    "key": "Instagram",
+    "url": "https://www.instagram.com/DevZoneOne",
+    "icon": "fab fa-instagram-square"
+  },
+  {
+    "key": "Threads",
+    "url": "https://www.threads.net/DevZoneOne",
+    "icon": "fab fa-square-threads"
+  },
+  {
+    "key": "Github",
+    "url": "https://www.github.com/devzone.one",
+    "icon": "fab fa-github-square"
+  }
+]

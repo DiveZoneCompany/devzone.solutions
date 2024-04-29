@@ -9,6 +9,7 @@ const filters = require("./src/filters");
 const helpers = require("./src/helpers");
 const shortcodes = require("./src/shortcodes");
 const transforms = require("./src/transforms");
+const collections = require("./src/collections");
 
 module.exports = function (eleventyConfig) {
   let prodMode;
@@ -20,6 +21,8 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.on("eleventy.before", async ({ runMode }) => {
     prodMode = runMode === "build";
   });
+  // collections
+  eleventyConfig.addCollection("portfolioSorted", collections.portfolioSorted);
   // filters
   eleventyConfig.addFilter("htmlDateString", filters.htmlDateString);
   eleventyConfig.addFilter("md", filters.md);

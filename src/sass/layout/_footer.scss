@@ -12,10 +12,18 @@ footer {
   }
 
   .footer--fathom {
-    font-size: x-small;
+    font-size: small;
   }
 
   .footer--trademarks {
     font-size: small;
+  }
+
+  .footer--socials {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    display: flex;
+    gap: 1em;
+    justify-content: center;
   }
 }

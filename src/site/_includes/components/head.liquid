@@ -1,15 +1,19 @@
 <head>
-    <!-- STYLING -->
-    <link rel="stylesheet" href="/css/{{ manifest['style.css'] }}"/>
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@100;200;300;700&display=swap" rel="stylesheet">
-    <!-- PAGE DATA -->
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title>{{ title | default: manifest.title }}</title>
-    <meta name="description" content="{{ description | default: manifest.meta.description }}">
-    <meta name="keywords" content="{{ manifest.meta.keywords | join: ', ' }}">
-    <meta name="author" content="{{ author | default: manifest.meta.author }}">
-    <!-- FEEDS -->
-    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ manifest.title }}">
-    <link rel="alternate" href="/feed/feed.json" type="application/json" title="{{ manifest.title }}">
+  <!-- STYLING -->
+  <link rel="stylesheet" href="/css/{{ manifest['style.css'] }}">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@100;200;300;700&display=swap" rel="stylesheet">
+  <!-- FONT AWESOME -->
+  <link rel="stylesheet" href="/fontawesome/css/fontawesome.min.css">
+  <link rel="stylesheet" href="/fontawesome/css/thin.min.css">
+  <link rel="stylesheet" href="/fontawesome/css/brands.min.css">
+  <!-- PAGE DATA -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title | default: manifest.title }}</title>
+  <meta name="description" content="{{ description | default: manifest.meta.description }}">
+  <meta name="keywords" content="{{ manifest.meta.keywords | join: ', ' }}">
+  <meta name="author" content="{{ author | default: manifest.meta.author }}">
+  <!-- FEEDS -->
+  <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ manifest.title }}">
+  <link rel="alternate" href="/feed/feed.json" type="application/json" title="{{ manifest.title }}">
 </head>
