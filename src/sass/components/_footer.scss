@@ -1,6 +1,13 @@
+footer {
+  color: var(--theme-primary);
+  a {
+    color: var(--theme-primary);
+  }
+}
+
 .footer--socials {
   a {
-    color: darkgreen;
+    color: var(--theme-primary);
     font-size: var(--fs-500);
     text-decoration: none;
   }
@@ -12,6 +19,6 @@
   }
 
   #social-linkedin-me {
-    color: olivedrab;
+    color: var(--theme-secondary);
   }
 }

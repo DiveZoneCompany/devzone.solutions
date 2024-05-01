@@ -10,15 +10,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px dotted olivedrab;
+  border: 1px dotted var(--theme-secondary);
   border-radius: 8px;
   width: 240px;
 
   .portfolio--item--title {
     font-size: larger;
     font-weight: bolder;
-    border-bottom: 1px dotted olivedrab;
-    color: darkgreen;
+    border-bottom: 1px dotted var(--theme-secondary);
+    color: var(--theme-primary);
     width: 100%;
     text-align: center;
   }

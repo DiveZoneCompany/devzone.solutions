@@ -5,8 +5,8 @@ footer {
 
   .footer--copyright {
     font-size: large;
-    border-top: 1px solid darkgreen;
-    border-bottom: 1px solid darkgreen;
+    border-top: 1px solid var(--theme-primary);
+    border-bottom: 1px solid var(--theme-primary);
     padding: 0.2rem;
     margin: 0.5rem 0;
   }

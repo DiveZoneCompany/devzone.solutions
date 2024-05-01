@@ -1,7 +1,6 @@
-@use "pkg:@divezone/divezone-web-styles";
+@use "pkg:@divezone/divezone-web-styles" as dz;
 
-@use "abstracts";
-
-@use "base";
 @use "layout";
 @use "components";
+
+@include dz.theme(map-get(dz.$themes, green));
