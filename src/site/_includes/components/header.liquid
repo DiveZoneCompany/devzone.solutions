@@ -1,12 +1,12 @@
 {% assign pages = collections.all | eleventyNavigation %}
 {% assign parent = null %}
 <header>
-  <div class="header-logo">
+  <div class="header--logo">
     <a href="/">{% include './logo', titlePart1: 'DEV', postTitle: 'SOLUTIONS' %}</a>
   </div>
-  <div class="header-nav">
-    <nav class="header-nav-main">
-      <ul role="list" class="nav-list">
+  <div class="header--nav">
+    <nav class="nav--main">
+      <ul role="list">
         {%- for entry in pages %}
           <li
             {% if page.url contains entry.url %}
@@ -25,8 +25,8 @@
     </nav>
     {% if parent %}
       {% assign children = collections.all | eleventyNavigation: parent %}
-      <nav class="header-nav-sub">
-        <ul role="list" class="nav-list">
+      <nav class="nav--sub">
+        <ul role="list">
           {%- for entry in children %}
             <li
               {% if entry.url == page.url %}

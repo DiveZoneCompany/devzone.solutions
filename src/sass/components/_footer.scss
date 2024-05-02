@@ -1,23 +1,4 @@
-footer {
-  color: var(--theme-primary);
-  a {
-    color: var(--theme-primary);
-  }
-}
-
 .footer--socials {
-  a {
-    color: var(--theme-primary);
-    font-size: var(--fs-500);
-    text-decoration: none;
-  }
-  a:link,
-  a:hover,
-  a:active,
-  a:visited {
-    text-decoration: none;
-  }
-
   #social-linkedin-me {
     color: var(--theme-secondary);
   }

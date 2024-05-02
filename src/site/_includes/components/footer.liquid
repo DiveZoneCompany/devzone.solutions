@@ -2,10 +2,11 @@
   <div class="footer--copyright">
     © {% year %}
     {{ author | default: manifest.meta.author }}
+    <div class="footer--trademarks">
+      DevZone, DevZone Solutions and DevZone One are registered trademarks of The DiveZone Company
+    </div>
   </div>
-  <div class="footer--trademarks">
-    DevZone, DevZone Solutions and DevZone One are registered trademarks of The DiveZone Company
-  </div>
+
   <div class="footer--socials">
     {% for social in socials %}
       <a id="social-{{ social.key | slugify }}" class="{{ social.icon }}" href="{{ social.url }}" target="_blank">
@@ -13,6 +14,7 @@
       </a>
     {% endfor %}
   </div>
+
   <div class="footer--fathom">
     Proudly respecting your privacy with
     <a href="https://usefathom.com/ref/DTPELY" target="_blank">Fathom Analytics</a>!
