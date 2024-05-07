@@ -15,17 +15,15 @@ For this foundation, I did several (parts of) projects:
 3. Redesign and redevelopment van an existing API to a more complete platform for the complete
    backend based on Spring (Boot), Micro Services and REST API’s.
 
-**Communication**:
-
+- **Communication:**
 - English
 
-**Used technologies**:
-
-- Java
-- XML
-- JSON
-- Apache SOLR
-- Scrum/Agile
-- Spring 3
-- PostgreSQL
-- MongoDB
+* **Used technologies:**
+* Java
+* XML
+* JSON
+* Apache SOLR
+* Scrum/Agile
+* Spring 3
+* PostgreSQL
+* MongoDB

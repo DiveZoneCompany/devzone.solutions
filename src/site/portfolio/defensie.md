@@ -10,17 +10,15 @@ Development of several portal applications for the internal Portal of the real e
 Dutch Defence. For each, as a preparation a functional and technical design was written.
 Also coached new employees, both developers and an application manager.
 
-**Communication**:
-
+- **Communication:**
 - Dutch
 
-**Used technologies**:
-
-- Java
-- XML
-- XSD
-- Apache Struts
-- Apache Jetspeed 2 (Portals)
-- Spring 2
-- Eclipse
-- Tomcat
+* **Used technologies:**
+* Java
+* XML
+* XSD
+* Apache Struts
+* Apache Jetspeed 2 (Portals)
+* Spring 2
+* Eclipse
+* Tomcat

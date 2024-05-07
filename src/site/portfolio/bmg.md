@@ -12,20 +12,18 @@ private cloud environments.
 
 Additionally, I took the role of Scrum Master for the team.
 
-**Communication**:
-
+- **Communication:**
 - English
 
-**Used technologies**:
-
-- Java 11
-- Spring
-- GIT
-- GraphQL
-- LIT
-- JavaScript/Typescript
-- Karma
-- HTML
-- SCSS
-- Azure
-- Kubernetes
+* **Used technologies:**
+* Java 11
+* Spring
+* GIT
+* GraphQL
+* LIT
+* JavaScript/Typescript
+* Karma
+* HTML
+* SCSS
+* Azure
+* Kubernetes

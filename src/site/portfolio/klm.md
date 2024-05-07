@@ -15,23 +15,21 @@ Supply Centres Worldwide in the network of both KLM and Air France. This include
 AngularJS to Angular, and Spring Framework to Spring Boot and is used as a template for other
 comparable project upgrades.
 
-**Communication**
-
+- **Communication:**
 - 90% English
 - 10% Dutch
 
-**Used technologies**
-
-- Java
-- SOAP
-- REST
-- XML
-- JSON
-- API
-- Scrum/Agile
-- Spring Framework
-- Spring Boot
-- AngularJS
-- Angular
-- Oracle DB
-- Tomcat
+* **Used technologies:**
+* Java
+* SOAP
+* REST
+* XML
+* JSON
+* API
+* Scrum/Agile
+* Spring Framework
+* Spring Boot
+* AngularJS
+* Angular
+* Oracle DB
+* Tomcat

@@ -11,22 +11,20 @@ used by the control center of the Dutch Railways (NS). Besides the front end, th
 maintains several Java / spring-based API interfaces. Division in work is about 90% angular / 10%
 java.
 
-**Communication**:
-
+- **Communication:**
 - Dutch
 
-**Used technologies**:
-
-- Java 11
-- Spring
-- GIT
-- GraphQL
-- Angular
-- Typescript
-- Karma
-- HTML
-- SCSS
-- Spectator
-- Cypres
-- Azure
-- Kubernetes
+* **Used technologies:**
+* Java 11
+* Spring
+* GIT
+* GraphQL
+* Angular
+* Typescript
+* Karma
+* HTML
+* SCSS
+* Spectator
+* Cypres
+* Azure
+* Kubernetes
