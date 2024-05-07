@@ -6,6 +6,10 @@
   gap: 10px;
 }
 
+.portfolio--link {
+  color: var(--theme-primary);
+}
+
 .portfolio--item {
   display: flex;
   flex-direction: column;
@@ -36,5 +40,19 @@
     height: auto;
     max-width: 200px;
     max-height: 100px;
+  }
+}
+
+.portfolio--role {
+  margin: 0 1em;
+
+  img {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    max-width: 200px;
+    max-height: 100px;
+    padding-left: 16px;
+    padding-bottom: 16px;
   }
 }

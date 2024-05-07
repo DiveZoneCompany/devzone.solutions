@@ -8,7 +8,7 @@ metadata:
     {% include 'components/head.liquid' %}
     <body>
         {% include 'components/header.liquid' %}
-        <main>
+        <main class="{{ layout }}">
             {%- if draft %}
                 <div class="draft">DRAFT</div>
             {%- endif %}
