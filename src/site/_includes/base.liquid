@@ -2,18 +2,17 @@
 metadata:
     url: {{ manifest.url }}
 ---
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{{ manifest.language }}">
-    {% include 'components/head.liquid' %}
-    <body>
-        {% include 'components/header.liquid' %}
-        <main>
-            {%- if draft %}
-                <div class="draft">DRAFT</div>
-            {%- endif %}
-            {{ content }}
-        </main>
-        {% include 'components/footer.liquid' %}
-    </body>
+  {% include 'components/head.liquid' %}
+  <body>
+    {% include 'components/header.liquid' %}
+    <main class="main--{{ layout }}">
+      {%- if draft %}
+        <div class="draft">DRAFT</div>
+      {%- endif %}
+      {{ content }}
+    </main>
+    {% include 'components/footer.liquid' %}
+  </body>
 </html>

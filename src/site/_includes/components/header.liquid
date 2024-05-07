@@ -25,6 +25,7 @@
     </nav>
     {% if parent %}
       {% assign children = collections.all | eleventyNavigation: parent %}
+      {% if children.size > 0 %}
       <nav class="nav--sub">
         <ul role="list">
           {%- for entry in children %}
@@ -38,6 +39,7 @@
           {%- endfor %}
         </ul>
       </nav>
+      {% endif %}
     {% endif %}
   </div>
 </header>
