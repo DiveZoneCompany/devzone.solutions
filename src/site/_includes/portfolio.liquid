@@ -5,7 +5,7 @@ eleventyImport:
 ---
 <main>
   {{ content }}
-  <div class="portfolio">
+  <div class="portfolio--items">
     {%- for item in collections.portfolioSorted -%}
       <a href="{{ item.url }}" class="portfolio--link">
         <div class="portfolio--item portfolio--item--{{ item.data.page.fileSlug }}">

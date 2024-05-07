@@ -1,4 +1,4 @@
-.portfolio {
+.portfolio--items {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -41,18 +41,10 @@
     max-width: 200px;
     max-height: 100px;
   }
-}
 
-.portfolio--role {
-  margin: 0 1em;
-
-  img {
-    display: inline-block;
-    width: auto;
-    height: auto;
-    max-width: 200px;
-    max-height: 100px;
-    padding-left: 16px;
-    padding-bottom: 16px;
+  .portfolio--item--content {
+    text-align: center;
+    font-size: smaller;
+    height: 4rem;
   }
 }

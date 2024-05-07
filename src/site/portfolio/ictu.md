@@ -8,14 +8,17 @@ tags: Senior Java Developer
 
 Improvement and extension of a childcare administration system of the Dutch Government.
 
-**Communication**: Dutch
+**Communication**:
 
-**Used technologies**: 
-* Java 
-* JSF2 
-* EJB3 
-* JPA 
-* Oracle DB 
-* Glassfish 
-* EclipseLink 
-* Scrum/Agile
+- Dutch
+
+**Used technologies**:
+
+- Java
+- JSF2
+- EJB3
+- JPA
+- Oracle DB
+- Glassfish
+- EclipseLink
+- Scrum/Agile

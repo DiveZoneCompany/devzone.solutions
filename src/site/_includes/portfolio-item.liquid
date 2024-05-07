@@ -1,10 +1,21 @@
 ---
 layout: page
 ---
+{% assign roles = role | split: ' / ' %}
 
-<p class="portfolio--role">
-    <img src="/logos/{{ logo }}" align="right">
-    <strong>Role:</strong> {{ role }}
+<img src="/logos/{{ logo }}" align="right">
+
+<p>
+  <strong
+    >Role
+    {%- if roles.length > 1 -%}s{%- endif -%}
+    :</strong
+  >
 </p>
+<ul>
+  {%- for r in roles -%}
+    <li>{{ r }}</li>
+  {%- endfor -%}
+</ul>
 
 {{ content }}
