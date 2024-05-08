@@ -30,17 +30,25 @@
   .portfolio--item--logo {
     display: flex;
     justify-content: center;
-    height: 100px;
-    margin: 16px 0;
+    align-content: center;
+    width: 200px;
+    height: 200px;
+    margin-top: 8px;
+    img {
+      display: block;
+      width: fit-content;
+      height: fit-content;
+      margin: auto;
+    }
   }
 
-  img {
-    display: block;
-    width: auto;
-    height: auto;
-    max-width: 200px;
-    max-height: 100px;
-  }
+  // img {
+  //   display: block;
+  //   width: auto;
+  //   height: auto;
+  //   max-width: 200px;
+  //   max-height: 100px;
+  // }
 
   .portfolio--item--content {
     text-align: center;

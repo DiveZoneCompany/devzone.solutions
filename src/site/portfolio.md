@@ -8,4 +8,4 @@ eleventyNavigation:
   order: 2
 ---
 
-Here are a few examples of projects I worked on:
+Here are a few examples of projects I worked on _(not in chronological order)_:

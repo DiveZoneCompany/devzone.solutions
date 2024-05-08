@@ -1,12 +1,7 @@
 .main--portfolio-item {
   img {
     display: inline-block;
-    width: auto;
-    height: auto;
-    max-width: 200px;
-    max-height: 100px;
-    padding-left: 16px;
-    padding-bottom: 16px;
+    padding: 32px 0 16px 16px;
   }
 
   ul {
@@ -28,5 +23,24 @@
     li {
       margin-bottom: 1em;
     }
+  }
+}
+
+.portfolio--prev-next {
+  display: flex;
+
+  div {
+    flex-grow: 1;
+
+    a {
+      color: var(--theme-primary);
+    }
+  }
+
+  .back {
+    text-align: center;
+  }
+  .next {
+    text-align: end;
   }
 }

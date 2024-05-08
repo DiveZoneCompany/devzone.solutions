@@ -10,9 +10,7 @@ eleventyImport:
       <a href="{{ item.url }}" class="portfolio--link">
         <div class="portfolio--item portfolio--item--{{ item.data.page.fileSlug }}">
           <div class="portfolio--item--title">{{ item.data.title }}</div>
-          <div class="portfolio--item--logo">
-            <img src="/logos/{{ item.data.logo }}">
-          </div>
+          <div class="portfolio--item--logo"><img src="/logos/{{ item.data.page.fileSlug }}.png"></div>
           <div class="portfolio--item--content">{{ item.data.role | md }}</div>
         </div>
       </a>

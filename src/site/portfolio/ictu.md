@@ -1,12 +1,9 @@
 ---
 layout: portfolio-item
 title: ICTU
-logo: ictu.svg
 role: Senior Java Developer
 tags: Senior Java Developer
 ---
-
-Improvement and extension of a childcare administration system of the Dutch Government.
 
 - **Communication:**
 - Dutch
@@ -20,3 +17,5 @@ Improvement and extension of a childcare administration system of the Dutch Gove
 * Glassfish
 * EclipseLink
 * Scrum/Agile
+
+Improvement and extension of a childcare administration system of the Dutch Government.

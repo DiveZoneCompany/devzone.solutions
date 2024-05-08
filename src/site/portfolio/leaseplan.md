@@ -1,13 +1,9 @@
 ---
 layout: portfolio-item
 title: Leaseplan Digital
-logo: leaseplan.svg
 role: Technical Lead / Senior Java Developer
 tags: Leaseplan, Leaseplan Digital, Technical Lead, Senior Java Developer
 ---
-
-Advisor and contributor for code improvements and performance optimizations of a Hybris project,
-which was mainly developed in India. Also contributed to an improved CI/CD setup.
 
 - **Communication:**
 - English
@@ -20,3 +16,6 @@ which was mainly developed in India. Also contributed to an improved CI/CD setup
 * GIT
 * BitBucket
 * GitLab CI/CD
+
+Advisor and contributor for code improvements and performance optimizations of a Hybris project,
+which was mainly developed in India. Also contributed to an improved CI/CD setup.
