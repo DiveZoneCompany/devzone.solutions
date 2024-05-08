@@ -1,7 +1,6 @@
 ---
 layout: portfolio
 title: Portfolio
-draft: true
 eleventyNavigation:
   key: portfolio
   title: Portfolio
