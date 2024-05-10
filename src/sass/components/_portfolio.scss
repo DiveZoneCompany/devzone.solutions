@@ -31,9 +31,12 @@
     display: flex;
     justify-content: center;
     align-content: center;
-    width: 200px;
-    height: 200px;
+    width: 208px;
+    height: 208px;
     margin-top: 8px;
+    background-color: var(--theme-background-secundary);
+    padding: 4px;
+    border-radius: 4px;
     img {
       display: block;
       width: fit-content;
@@ -41,14 +44,6 @@
       margin: auto;
     }
   }
-
-  // img {
-  //   display: block;
-  //   width: auto;
-  //   height: auto;
-  //   max-width: 200px;
-  //   max-height: 100px;
-  // }
 
   .portfolio--item--content {
     text-align: center;
