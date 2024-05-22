@@ -18,33 +18,35 @@ eleventyImport:
 <div class="portfolio--prev-next">
   <div class="prev">
     {% if previousPost -%}
-      <a href="{{ previousPost.url }}"><i class="fa-thin fa-hand-point-left"></i> {{ previousPost.data.title }}</a>
+      <a href="{{ previousPost.url }}">
+        <i class="fa-thin fa-hand-point-left"></i>
+        {{ previousPost.data.title }}</a>
     {%- endif %}
     &nbsp;
   </div>
   <div class="back">
-    <a href="/portfolio"><i class="fa-thin fa-hand-point-up"></i> Back to Portfolio overview</a>
+    <a href="/portfolio">
+      <i class="fa-thin fa-hand-point-up"></i>
+      Back to Portfolio overview</a>
   </div>
   <div class="next">
     &nbsp;
     <a href="{{ nextPost.url }}">
       {{- nextPost.data.title }}
-      <i class="fa-thin fa-hand-point-right"></i
-    ></a>
+      <i class="fa-thin fa-hand-point-right"></i>
+    </a>
   </div>
 </div>
 
 <img src="/logos/{{ page.fileSlug }}.png" align="right">
 
-<h2>{{ title }}</h2>
+<h1>{{ title }}</h1>
 
 <ul>
   <li>
-    <strong
-      >Role
+    <strong>Role
       {%- if roles.length > 1 -%}s{%- endif -%}
-      :</strong
-    >
+      :</strong>
   </li>
   {%- for r in roles -%}
     <li>{{ r }}</li>
