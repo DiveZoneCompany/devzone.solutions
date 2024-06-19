@@ -12,4 +12,10 @@ As a certified Professional Scrum Master...
 
 ---
 
-More details...
+### Scrum - My point of view
+
+...
+
+### Certification
+
+I have my Professional Scrum Master™ I (PSM I) certification from Scrum.org _(The home of Scrum)_.
