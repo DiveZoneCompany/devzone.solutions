@@ -1,6 +1,5 @@
 import { EleventyHtmlBasePlugin, EleventyRenderPlugin } from "@11ty/eleventy";
 import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
-import eleventyRssPlugin from "@11ty/eleventy-plugin-rss";
 
 import collections from "./src/collections.js";
 import filters from "./src/filters.js";
@@ -37,7 +36,6 @@ export default async function (eleventyConfig) {
   );
   // plugins
   eleventyConfig.addPlugin(eleventyNavigationPlugin);
-  eleventyConfig.addPlugin(eleventyRssPlugin);
   eleventyConfig.addPlugin(EleventyRenderPlugin);
   eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
   // static
