@@ -1,6 +1,6 @@
-const htmlmin = require("html-minifier");
-const prettier = require("prettier");
-const path = require("path");
+import htmlmin from "html-minifier";
+import path from "path";
+import prettier from "prettier";
 
 const minify = (content, outputPath) => {
   if (outputPath && outputPath.endsWith(".html")) {
@@ -39,7 +39,7 @@ const prettify = (content, outputPath) => {
   return content;
 };
 
-module.exports = {
+export default {
   minify,
   prettify,
 };

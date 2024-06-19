@@ -1,5 +1,4 @@
 ---
-layout: portfolio-item
 title: Europeana Foundation
 role: Lead Java Developer / Architect
 tags: Lead Java Developer, Architect

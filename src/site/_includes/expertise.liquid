@@ -1,0 +1,18 @@
+---
+layout: page
+eleventyImport:
+  collections: ["expertiseSorted"]
+---
+
+{{ content }}
+
+{%- for expertise in collections.expertiseSorted %}
+<section class="expertise--item">
+    <a href="{{ expertise.url }}" class="expertise--item--link">
+        <h3>
+            {{ expertise.data.title }}
+        </h3>
+    </a>
+    {{ expertise.page.excerpt | md }}
+</section>
+{%- endfor %}

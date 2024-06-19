@@ -1,10 +1,15 @@
 ---
-layout: page
 title: Scrum Master
 draft: true
 eleventyNavigation:
   key: scrum
   title: Scrum Master
-  parent: Services
+  parent: expertise
   order: 99
 ---
+
+As a certified Professional Scrum Master...
+
+---
+
+More details...

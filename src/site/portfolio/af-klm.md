@@ -1,13 +1,12 @@
 ---
-layout: portfolio-item
 title: AF/KLM Information Services
 role: Technical Lead (Full stack team)
 tags: KLM, AF/KLM Information Services, Technical Lead
 ---
 
 - **Communication:**
-- 90% English
 - 10% Dutch
+- 90% English
 
 * **Used technologies:**
 * Java

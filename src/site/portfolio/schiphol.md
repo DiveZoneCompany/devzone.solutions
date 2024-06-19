@@ -1,13 +1,12 @@
 ---
-layout: portfolio-item
 title: Schiphol
 role: Technical Lead / Senior Java Developer
 tags: Triopsys, Bosch, Schiphol, Technical Lead, Senior Java Developer
 ---
 
 - **Communication:**
-- 70% English
 - 30% Dutch
+- 70% English
 
 * **Used technologies:**
 * Java 11

@@ -6,6 +6,12 @@ const portfolioSorted = (collectionApi) => {
   });
 };
 
-module.exports = {
-  portfolioSorted,
+const expertiseSorted = (collectionApi) => {
+  return collectionApi.getFilteredByTag("expertise").sort(function (a, b) {
+    return a.data.eleventyNavigation.order - b.data.eleventyNavigation.order;
+  });
+}
+
+export default {
+  portfolioSorted, expertiseSorted
 };

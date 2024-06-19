@@ -1,5 +1,4 @@
 ---
-layout: portfolio-item
 title: Bank Mendes Gans
 role: Senior Fullstack Developer / Scrum master
 tags: BMG, Bank Mendes Gans, ING, scrum master, Senior Fullstack Developer

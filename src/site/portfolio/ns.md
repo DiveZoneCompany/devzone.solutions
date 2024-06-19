@@ -1,5 +1,4 @@
 ---
-layout: portfolio-item
 title: NS
 role: Technical Lead / Senior Fullstack Developer
 tags: NS, Nederlandse Spoorwegen, Dutch Railways, Technical Lead, Senior Fullstack Developer

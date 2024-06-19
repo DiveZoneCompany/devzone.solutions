@@ -1,5 +1,4 @@
 ---
-layout: portfolio-item
 title: Rabobank Online
 role: Senior Java Developer
 tags: Rabobank Online, Rabobank, Senior Java Developer

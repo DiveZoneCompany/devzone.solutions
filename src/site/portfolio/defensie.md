@@ -1,5 +1,4 @@
 ---
-layout: portfolio-item
 title: Ministry of Defence
 role: Architect / Lead Java Developer / Coach
 tags: Defensie, Ministerie van Defensie, Ministry of Defense, Architect, Lead Java Developer, Coach

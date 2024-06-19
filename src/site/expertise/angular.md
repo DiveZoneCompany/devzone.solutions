@@ -1,10 +1,15 @@
 ---
-layout: page
 title: Front-end Angular Development
 draft: true
 eleventyNavigation:
   key: angular
   title: Front-end
-  parent: Services
+  parent: expertise
   order: 3
 ---
+
+As an Angular Developer...
+
+---
+
+More details...

@@ -1,5 +1,4 @@
 ---
-layout: portfolio-item
 title: ICTU
 role: Senior Java Developer
 tags: Senior Java Developer

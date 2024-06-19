@@ -1,5 +1,4 @@
 ---
-layout: portfolio-item
 title: Malmberg
 role: Senior Java Developer
 tags: Malmberg, Senior Java Developer

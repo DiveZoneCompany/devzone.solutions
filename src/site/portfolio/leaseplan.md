@@ -1,5 +1,4 @@
 ---
-layout: portfolio-item
 title: Leaseplan Digital
 role: Technical Lead / Senior Java Developer
 tags: Leaseplan, Leaseplan Digital, Technical Lead, Senior Java Developer

@@ -1,17 +1,14 @@
-const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
-const eleventyRssPlugin = require("@11ty/eleventy-plugin-rss");
-const {
-  EleventyRenderPlugin,
-  EleventyHtmlBasePlugin,
-} = require("@11ty/eleventy");
+import { EleventyHtmlBasePlugin, EleventyRenderPlugin } from "@11ty/eleventy";
+import eleventyNavigationPlugin from "@11ty/eleventy-navigation";
+import eleventyRssPlugin from "@11ty/eleventy-plugin-rss";
 
-const filters = require("./src/filters");
-const helpers = require("./src/helpers");
-const shortcodes = require("./src/shortcodes");
-const transforms = require("./src/transforms");
-const collections = require("./src/collections");
+import collections from "./src/collections.js";
+import filters from "./src/filters.js";
+import helpers from "./src/helpers.js";
+import shortcodes from "./src/shortcodes.js";
+import transforms from "./src/transforms.js";
 
-module.exports = function (eleventyConfig) {
+export default async function (eleventyConfig) {
   let prodMode;
   // config
   eleventyConfig.setFrontMatterParsingOptions({
@@ -23,6 +20,7 @@ module.exports = function (eleventyConfig) {
   });
   // collections
   eleventyConfig.addCollection("portfolioSorted", collections.portfolioSorted);
+  eleventyConfig.addCollection("expertiseSorted", collections.expertiseSorted);
   // filters
   eleventyConfig.addFilter("htmlDateString", filters.htmlDateString);
   eleventyConfig.addFilter("md", filters.md);
