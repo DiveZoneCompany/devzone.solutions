@@ -17,9 +17,6 @@
   <meta name="description" content="{{ description | default: manifest.meta.description }}">
   <meta name="keywords" content="{{ manifest.meta.keywords | concat: tags | join: ', ' }}">
   <meta name="author" content="{{ author | default: manifest.meta.author }}">
-  <!-- FEEDS -->
-  <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="{{ manifest.title }}">
-  <link rel="alternate" href="/feed/feed.json" type="application/json" title="{{ manifest.title }}">
   <!-- ANALYTICS -->
   {% include './analytics.liquid' %}
 </head>
