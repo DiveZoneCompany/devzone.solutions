@@ -23,7 +23,6 @@ export default async function (eleventyConfig) {
   // filters
   eleventyConfig.addFilter("htmlDateString", filters.htmlDateString);
   eleventyConfig.addFilter("md", filters.md);
-  eleventyConfig.addFilter("zonify", filters.zonify);
   // global data
   eleventyConfig.addGlobalData("eleventyComputed.permalink", function () {
     return (data) => helpers.draftPermaLink(data, prodMode);
