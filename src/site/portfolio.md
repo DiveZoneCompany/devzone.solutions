@@ -7,4 +7,4 @@ eleventyNavigation:
   order: 2
 ---
 
-Here are a few examples of projects I worked on _(not in chronological order)_:
+Here are a few examples of projects I worked on as a freelance consultant _(in alphabetical order)_:
