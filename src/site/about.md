@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Who am I
+tags: header
 eleventyNavigation:
   key: Who am I
   order: 1

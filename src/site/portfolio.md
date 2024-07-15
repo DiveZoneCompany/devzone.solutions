@@ -1,6 +1,7 @@
 ---
 layout: portfolio
 title: Portfolio
+tags: header
 eleventyNavigation:
   key: portfolio
   title: Portfolio

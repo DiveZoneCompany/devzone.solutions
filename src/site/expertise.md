@@ -1,6 +1,7 @@
 ---
 layout: expertise
 title: Fields of Expertise
+tags: header
 eleventyNavigation:
   title: Expertise
   key: expertise

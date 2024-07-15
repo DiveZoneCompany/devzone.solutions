@@ -1,4 +1,4 @@
 export default {
     layout: "page",
-    tags: "expertise",
+    tags: ["header", "expertise"],
 };
