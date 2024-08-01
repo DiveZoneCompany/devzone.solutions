@@ -1,0 +1,40 @@
+[
+  {
+    "label": "Dev Languages",
+    "items": [
+      {
+        "mainKeyword": "Java",
+        "keywords": "JEE,EJB,Servlets,JNDI,RMI,Lambda,Streams,Reactive",
+        "level": 10,
+        "recentYear": 2024,
+        "years": 24
+      },
+      {
+        "mainKeyword": "JavaScript",
+        "keywords": "JavaScript,TypeScript",
+        "level": 9,
+        "recentYear": 2024,
+        "years": 23
+      }
+    ]
+  },
+  {
+    "label": "Dev Tools",
+    "items": [
+      {
+        "mainKeyword": "JetBrains IntelliJ",
+        "keywords": "IntelliJ,WebStorm",
+        "level": 10,
+        "recentYear": 2024,
+        "years": 12
+      },
+      {
+        "mainKeyword": "Visual Studio Code",
+        "keywords": "",
+        "level": 10,
+        "recentYear": 2024,
+        "years": 24
+      }
+    ]
+  }
+]

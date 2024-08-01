@@ -1,0 +1,57 @@
+---
+layout: page
+draft: true
+---
+
+{{ content }}
+
+<div class="experience--categories">
+
+    {% for category in experience %}
+        
+        <table>
+            <thead>
+            <tr>
+                <th class="experience--category-label">{{ category.label }}</th>
+                <th class="experience--category-year">Recent Year</th>
+                <th class="experience--category-years">Years</th>
+                <th class="experience--category-level">Level</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for item in category.items %}
+                <tr>
+                    <td>{{ item.keywords }}</td>
+                    <td>{{ item.recentYear }}</td>
+                    <td>{{ item.years }}</td>
+                    <td>
+                        {% case item.level %}
+                        {% when 1 %}
+                            🌗🌑🌑🌑🌑
+                        {% when 2 %}
+                            🌕🌑🌑🌑🌑
+                        {% when 3 %}
+                            🌕🌗🌑🌑🌑
+                        {% when 4 %}
+                            🌕🌕🌑🌑🌑
+                        {% when 5 %}
+                            🌕🌕🌗🌑🌑
+                        {% when 6 %}
+                            🌕🌕🌕🌑🌑
+                        {% when 7 %}
+                            🌕🌕🌕🌗🌑
+                        {% when 8 %}
+                            🌕🌕🌕🌕🌑
+                        {% when 9 %}
+                            🌕🌕🌕🌕🌗
+                        {% when 10 %}
+                            🌕🌕🌕🌕🌕
+                        {% endcase %}
+                    </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    {% endfor %}
+
+</div>
