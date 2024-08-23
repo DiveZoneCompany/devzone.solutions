@@ -4,14 +4,14 @@
     "items": [
       {
         "mainKeyword": "Java",
-        "keywords": "JEE,EJB,Servlets,JNDI,RMI,Lambda,Streams,Reactive",
+        "keywords": "JEE, EJB, Servlets, JNDI, RMI, Lambda, Streams, Reactive",
         "level": 10,
         "recentYear": 2024,
         "years": 24
       },
       {
         "mainKeyword": "JavaScript",
-        "keywords": "JavaScript,TypeScript",
+        "keywords": "TypeScript",
         "level": 9,
         "recentYear": 2024,
         "years": 23
@@ -23,14 +23,13 @@
     "items": [
       {
         "mainKeyword": "JetBrains IntelliJ",
-        "keywords": "IntelliJ,WebStorm",
+        "keywords": "WebStorm",
         "level": 10,
         "recentYear": 2024,
         "years": 12
       },
       {
         "mainKeyword": "Visual Studio Code",
-        "keywords": "",
         "level": 10,
         "recentYear": 2024,
         "years": 24

@@ -9,9 +9,29 @@
         text-align: start;
     }
 
-    .experience--category-year, .experience--category-years, .experience--category-level {
+    thead .experience--category-year, 
+    thead .experience--category-years, 
+    thead .experience--category-level {
         font-size: small;
         font-weight: 300;
+    }
+
+    tbody .experience--category-year, 
+    tbody .experience--category-years, 
+    tbody .experience--category-level {
+        text-align: center;
+    }
+
+    tbody .experience--category-year { 
+        width: 70px;
+    }
+
+    tbody .experience--category-years {
+        width: 50px;
+    }
+
+    tbody .experience--category-level {
+        width: 95px;
     }
 
 }

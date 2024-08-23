@@ -21,10 +21,10 @@ draft: true
             <tbody>
             {% for item in category.items %}
                 <tr>
-                    <td>{{ item.keywords }}</td>
-                    <td>{{ item.recentYear }}</td>
-                    <td>{{ item.years }}</td>
-                    <td>
+                    <td class="experience--category-label"><strong>{{item.mainKeyword}}</strong>{%  if item.keywords %}, {{ item.keywords }}{% endif %}</td>
+                    <td class="experience--category-year">{{ item.recentYear }}</td>
+                    <td class="experience--category-years">{{ item.years }}</td>
+                    <td class="experience--category-level">
                         {% case item.level %}
                         {% when 1 %}
                             🌗🌑🌑🌑🌑
