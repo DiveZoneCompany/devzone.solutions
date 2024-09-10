@@ -16,7 +16,7 @@
       },
       {
         "mainKeyword": "Scrum / Agile",
-        "keywords": "(Certified Scrum Master)",
+        "description": "Certified Scrum Master",
         "level": 10,
         "recentYear": 2023,
         "years": 13
@@ -32,15 +32,41 @@
   {
     "label": "BRANCHES",
     "items": [
-      {"mainKeyword":"Financial", "level": 0, "recentYear": 2024, "years": 9},
-      {"mainKeyword":"Public Transport (Aviation, Rail)", "level": 0, "recentYear": 2022, "years": 6},
-      {"mainKeyword":"Service Providers", "level": 0, "recentYear": 2016, "years": 9},
-      {"mainKeyword":"Government", "level": 0, "recentYear": 2016, "years": 9},
-      {"mainKeyword":"Retail", "level": 0, "recentYear": 2015, "years": 1},
-      {"mainKeyword":"Publishers", "level": 0, "recentYear": 2015, "years": 1},
-      {"mainKeyword":"Industry", "level": 0, "recentYear": 2007, "years": 2},
-      {"mainKeyword":"Telecom", "level": 0, "recentYear": 2005, "years": 3},
-      {"mainKeyword":"Tourism", "level": 0, "recentYear": 2005, "years": 3}
+      {
+        "mainKeyword": "Financial",
+        "level": 0,
+        "recentYear": 2024,
+        "years": 9
+      },
+      {
+        "mainKeyword": "Public Transport",
+        "description": "Aviation, Rail",
+        "level": 0,
+        "recentYear": 2022,
+        "years": 6
+      },
+      {
+        "mainKeyword": "Service Providers",
+        "level": 0,
+        "recentYear": 2016,
+        "years": 9
+      },
+      {
+        "mainKeyword": "Government",
+        "level": 0,
+        "recentYear": 2016,
+        "years": 9
+      },
+      { "mainKeyword": "Retail", "level": 0, "recentYear": 2015, "years": 1 },
+      {
+        "mainKeyword": "Publishers",
+        "level": 0,
+        "recentYear": 2015,
+        "years": 1
+      },
+      { "mainKeyword": "Industry", "level": 0, "recentYear": 2007, "years": 2 },
+      { "mainKeyword": "Telecom", "level": 0, "recentYear": 2005, "years": 3 },
+      { "mainKeyword": "Tourism", "level": 0, "recentYear": 2005, "years": 3 }
     ]
   },
   {
@@ -48,42 +74,42 @@
     "items": [
       {
         "mainKeyword": "Java",
-        "keywords": "JEE, EJB, Servlets, JNDI, RMI, Lambda, Streams, Reactive",
+        "description": "JEE, EJB, Servlets, JNDI, RMI, Lambda, Streams, Reactive",
         "level": 10,
         "recentYear": 2024,
         "years": 24
       },
       {
         "mainKeyword": "HTML",
-        "keywords": "DHTML, XHTML, HTML5",
+        "description": "DHTML, XHTML, HTML5",
         "level": 10,
         "recentYear": 2024,
         "years": 24
       },
       {
         "mainKeyword": "CSS",
-        "keywords": "SASS, SCSS",
+        "description": "SASS, SCSS",
         "level": 8,
         "recentYear": 2024,
         "years": 10
       },
       {
         "mainKeyword": "JavaScript",
-        "keywords": "TypeScript",
+        "description": "TypeScript",
         "level": 9,
         "recentYear": 2024,
         "years": 23
       },
       {
         "mainKeyword": "Angular",
-        "keywords": "AngularJS, NgRx, NgXS",
+        "description": "AngularJS, NgRx, NgXS",
         "level": 9,
         "recentYear": 2023,
         "years": 8
       },
       {
         "mainKeyword": "Flutter",
-        "keywords": "Dart",
+        "description": "Dart",
         "level": 7,
         "recentYear": 2022,
         "years": 5
@@ -101,14 +127,14 @@
     "items": [
       {
         "mainKeyword": "Mockito",
-        "keywords": "EasyMock",
+        "description": "EasyMock",
         "level": 10,
         "recentYear": 2024,
         "years": 11
       },
       {
         "mainKeyword": "Selenium",
-        "keywords": "UI testing",
+        "description": "UI testing",
         "level": 10,
         "recentYear": 2024,
         "years": 7
@@ -127,7 +153,7 @@
       },
       {
         "mainKeyword": "Junit",
-        "keywords": "3.x, 4.x, 5.x",
+        "description": "3.x, 4.x, 5.x",
         "level": 10,
         "recentYear": 2024,
         "years": 22
@@ -145,14 +171,14 @@
     "items": [
       {
         "mainKeyword": "Spring Framework",
-        "keywords": "Spring Boot, Security, WebFlux",
+        "description": "Spring Boot, Spring Data, Spring Security, WebFlux",
         "level": 10,
         "recentYear": 2024,
         "years": 19
       },
       {
         "mainKeyword": "JPA / Hibernate",
-        "keywords": "JPQL, HQL, Annotations",
+        "description": "JPQL, HQL, Annotations",
         "level": 10,
         "recentYear": 2024,
         "years": 18
@@ -164,7 +190,7 @@
     "items": [
       {
         "mainKeyword": "JetBrains IntelliJ",
-        "keywords": "WebStorm",
+        "description": "WebStorm",
         "level": 10,
         "recentYear": 2024,
         "years": 12
@@ -183,7 +209,7 @@
       },
       {
         "mainKeyword": "GIT",
-        "keywords": "GitHub, GitLab, Bitbucket, Azure",
+        "description": "GitHub, GitLab, Bitbucket, Azure",
         "level": 10,
         "recentYear": 2024,
         "years": 12

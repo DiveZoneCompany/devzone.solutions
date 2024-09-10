@@ -6,35 +6,48 @@ layout: page
 
 <div class="experience--categories">
 
-    {% for category in experience %}
-        
-        <table>
-            <thead>
-            <tr>
-                <th class="experience--category-label">{{ category.label }}</th>
-                <th class="experience--category-year">Recent Year</th>
-                <th class="experience--category-years">Years</th>
-                <th class="experience--category-level">Level</th>
-            </tr>
-            </thead>
-            <tbody>
-            {% assign byRecentYear = category.items | sort: "years" | sort: "recentYear" | reverse %}
-            {% for item in byRecentYear %}
-                {% assign stars = item.level | divided_by: 2 | floor %}
-                {% assign half_star = item.level | modulo: 2 %}
-                <tr>
-                    <td class="experience--category-label"><strong>{{item.mainKeyword}}</strong>{%  if item.keywords %}, {{ item.keywords }}{% endif %}</td>
-                    <td class="experience--category-year">{{ item.recentYear }}</td>
-                    <td class="experience--category-years">{{ item.years }}</td>
-                    <td class="experience--category-level">
-                        {%- for i in (1..stars) %}<i class="fa-solid fa-star"></i>{%- endfor %}
-                        {%- if half_star == 1 %}<i class="fa-solid fa-star-half"></i>{%- endif %}
-                        {%- if item.level == 0 %}{%- for i in (1..5) %}<i class="fa-thin fa-star"></i>{%- endfor %}{%- endif %}
-                    </td>
-                </tr>
-            {% endfor %}
-            </tbody>
-        </table>
-    {% endfor %}
+  {% for category in experience %}
+
+    <table>
+      <thead>
+        <tr>
+          <th class="experience--category-label">{{ category.label }}</th>
+          <th class="experience--category-year">Recent Year</th>
+          <th class="experience--category-years">Years</th>
+          <th class="experience--category-level">Level</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% assign byRecentYear = category.items | sort: "years" | sort: "recentYear" | reverse %}
+        {% for item in byRecentYear %}
+          {% assign stars = item.level | divided_by: 2 | floor %}
+          {% assign half_star = item.level | modulo: 2 %}
+          <tr>
+            <td class="experience--category-label">
+              {{ item.mainKeyword }}
+              {%- if item.description %}
+                <div class="experience--category-desc">{{ item.description }}</div>
+              {%- endif %}
+            </td>
+            <td class="experience--category-year">{{ item.recentYear }}</td>
+            <td class="experience--category-years">{{ item.years }}</td>
+            <td class="experience--category-level">
+              {%- for i in (1..stars) %}
+                <i class="fa-solid fa-star"></i>
+              {%- endfor %}
+              {%- if half_star == 1 %}
+                <i class="fa-solid fa-star-half"></i>
+              {%- endif %}
+              {%- if item.level == 0 %}
+                {%- for i in (1..5) %}
+                  <i class="fa-thin fa-star"></i>
+                {%- endfor %}
+              {%- endif %}
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% endfor %}
 
 </div>

@@ -8,4 +8,4 @@ eleventyNavigation:
   order: 30
 ---
 
-Here are a few examples of projects I worked on as a freelance consultant _(in alphabetical order)_:
+Here are a few examples of projects I worked on as a freelance consultant _(not in chronological order)_:

@@ -1,9 +1,18 @@
 .portfolio--items {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 10px;
+  column-count: 4;
+  column-gap: 16px;
+
+  @media screen and (max-width: 975px) {
+    column-count: 3;
+  }
+
+  @media screen and (max-width: 725px) {
+    column-count: 2;
+  }
+
+  @media screen and (max-width: 500px) {
+    column-count: 1;
+  }
 }
 
 .portfolio--link {
@@ -11,17 +20,20 @@
 }
 
 .portfolio--item {
+  break-inside: avoid-column;
   display: flex;
   flex-direction: column;
   align-items: center;
   border: 1px dotted var(--theme-secondary);
   border-radius: 8px;
   width: 240px;
+  margin-bottom: 16px;
+  margin-left: auto;
+  margin-right: auto;
 
   .portfolio--item--title {
     font-size: larger;
     font-weight: bolder;
-    border-bottom: 1px dotted var(--theme-secondary);
     color: var(--theme-primary);
     width: 100%;
     text-align: center;
@@ -32,7 +44,6 @@
     justify-content: center;
     align-content: center;
     width: 208px;
-    height: 208px;
     margin-top: 8px;
     background-color: var(--theme-background-secundary);
     padding: 4px;
@@ -48,6 +59,5 @@
   .portfolio--item--content {
     text-align: center;
     font-size: smaller;
-    height: 4rem;
   }
 }

@@ -1,48 +1,56 @@
 .experience--categories {
+  column-count: 2;
+  column-gap: 16px;
 
-    column-count: 2;
-    column-gap: 16px;
-    column-rule: 1px dotted var(--theme-primary);
+  @media screen and (max-width: 900px) {
+    column-count: 1;
+  }
 
-    @media screen and (max-width: 900px) {
-        column-count: 1;
-    }
+  table {
+    width: 100%;
+    break-inside: avoid-column;
+    margin-bottom: 16px;
+    max-width: 490px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-    table {
-        width: 100%;
-        break-inside: avoid-column;
-        margin-bottom: 16px;
-    }
+  .experience--category-label {
+    text-align: start;
+  }
 
-    .experience--category-label {
-        text-align: start;
-    }
+  thead .experience--category-year,
+  thead .experience--category-years,
+  thead .experience--category-level {
+    font-size: small;
+    font-weight: 300;
+  }
 
-    thead .experience--category-year, 
-    thead .experience--category-years, 
-    thead .experience--category-level {
-        font-size: small;
-        font-weight: 300;
-    }
+  thead .experience--category-label {
+    font-size: larger;
+  }
 
-    tbody .experience--category-year, 
-    tbody .experience--category-years, 
-    tbody .experience--category-level {
-        text-align: center;
-    }
+  tbody .experience--category-year,
+  tbody .experience--category-years,
+  tbody .experience--category-level {
+    text-align: center;
+  }
 
-    tbody .experience--category-year { 
-        width: 70px;
-    }
+  .experience--category-desc {
+    font-size: x-small;
+    padding-left: 8px;
+  }
 
-    tbody .experience--category-years {
-        width: 50px;
-    }
+  tbody .experience--category-year {
+    width: 70px;
+  }
 
-    tbody .experience--category-level {
-        width: 80px;
-        font-size: small;
-        text-align: start;
-    }
+  tbody .experience--category-years {
+    width: 50px;
+  }
 
+  tbody .experience--category-level {
+    width: 80px;
+    font-size: 0.7rem;
+  }
 }
