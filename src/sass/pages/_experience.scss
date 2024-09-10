@@ -1,8 +1,17 @@
 .experience--categories {
 
+    column-count: 2;
+    column-gap: 16px;
+    column-rule: 1px dotted var(--theme-primary);
+
+    @media screen and (max-width: 900px) {
+        column-count: 1;
+    }
 
     table {
         width: 100%;
+        break-inside: avoid-column;
+        margin-bottom: 16px;
     }
 
     .experience--category-label {
@@ -31,7 +40,9 @@
     }
 
     tbody .experience--category-level {
-        width: 95px;
+        width: 80px;
+        font-size: small;
+        text-align: start;
     }
 
 }

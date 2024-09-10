@@ -1,10 +1,61 @@
 [
   {
-    "label": "Dev Languages",
+    "label": "ROLES",
+    "items": [
+      {
+        "mainKeyword": "Senior Java Developer",
+        "level": 10,
+        "recentYear": 2024,
+        "years": 24
+      },
+      {
+        "mainKeyword": "System design / development",
+        "level": 10,
+        "recentYear": 2024,
+        "years": 24
+      },
+      {
+        "mainKeyword": "Scrum / Agile",
+        "keywords": "(Certified Scrum Master)",
+        "level": 10,
+        "recentYear": 2023,
+        "years": 13
+      },
+      {
+        "mainKeyword": "Technical Team Lead (Full Stack)",
+        "level": 10,
+        "recentYear": 2022,
+        "years": 11
+      }
+    ]
+  },
+  {
+    "label": "BRANCHES",
+    "items": [
+      {"mainKeyword":"Financial", "level": 0, "recentYear": 2024, "years": 9},
+      {"mainKeyword":"Public Transport (Aviation, Rail)", "level": 0, "recentYear": 2022, "years": 6},
+      {"mainKeyword":"Service Providers", "level": 0, "recentYear": 2016, "years": 9},
+      {"mainKeyword":"Government", "level": 0, "recentYear": 2016, "years": 9},
+      {"mainKeyword":"Retail", "level": 0, "recentYear": 2015, "years": 1},
+      {"mainKeyword":"Publishers", "level": 0, "recentYear": 2015, "years": 1},
+      {"mainKeyword":"Industry", "level": 0, "recentYear": 2007, "years": 2},
+      {"mainKeyword":"Telecom", "level": 0, "recentYear": 2005, "years": 3},
+      {"mainKeyword":"Tourism", "level": 0, "recentYear": 2005, "years": 3}
+    ]
+  },
+  {
+    "label": "DEV LANGUAGES",
     "items": [
       {
         "mainKeyword": "Java",
         "keywords": "JEE, EJB, Servlets, JNDI, RMI, Lambda, Streams, Reactive",
+        "level": 10,
+        "recentYear": 2024,
+        "years": 24
+      },
+      {
+        "mainKeyword": "HTML",
+        "keywords": "DHTML, XHTML, HTML5",
         "level": 10,
         "recentYear": 2024,
         "years": 24
@@ -15,11 +66,93 @@
         "level": 9,
         "recentYear": 2024,
         "years": 23
+      },
+      {
+        "mainKeyword": "Angular",
+        "keywords": "AngularJS, NgRx",
+        "level": 9,
+        "recentYear": 2023,
+        "years": 8
+      },
+      {
+        "mainKeyword": "Flutter",
+        "keywords": "Dart",
+        "level": 7,
+        "recentYear": 2022,
+        "years": 5
+      },
+      {
+        "mainKeyword": "Kotlin",
+        "level": 3,
+        "recentYear": 2020,
+        "years": 1
       }
     ]
   },
   {
-    "label": "Dev Tools",
+    "label": "TEST TOOLS",
+    "items": [
+      {
+        "mainKeyword": "Mockito",
+        "keywords": "EasyMock",
+        "level": 10,
+        "recentYear": 2024,
+        "years": 11
+      },
+      {
+        "mainKeyword": "Selenium",
+        "keywords": "UI testing",
+        "level": 10,
+        "recentYear": 2024,
+        "years": 7
+      },
+      {
+        "mainKeyword": "Karate",
+        "level": 8,
+        "recentYear": 2024,
+        "years": 3
+      },
+      {
+        "mainKeyword": "Cypress",
+        "level": 8,
+        "recentYear": 2022,
+        "years": 2
+      },
+      {
+        "mainKeyword": "Junit 3.x, 4.x, 5.x",
+        "level": 10,
+        "recentYear": 2024,
+        "years": 22
+      },
+      {
+        "mainKeyword": "Cucumber",
+        "level": 8,
+        "recentYear": 2024,
+        "years": 3
+      }
+    ]
+  },
+  {
+    "label": "FRAMEWORKS",
+    "items": [
+      {
+        "mainKeyword": "Spring Framework",
+        "keywords": "Spring Boot, Security, WebFlux",
+        "level": 10,
+        "recentYear": 2024,
+        "years": 19
+      },
+      {
+        "mainKeyword": "JPA / Hibernate",
+        "keywords": "JPQL, HQL, Annotations",
+        "level": 10,
+        "recentYear": 2024,
+        "years": 18
+      }
+    ]
+  },
+  {
+    "label": "DEV TOOLS",
     "items": [
       {
         "mainKeyword": "JetBrains IntelliJ",
@@ -32,7 +165,26 @@
         "mainKeyword": "Visual Studio Code",
         "level": 10,
         "recentYear": 2024,
-        "years": 24
+        "years": 7
+      },
+      {
+        "mainKeyword": "Azure DevOps",
+        "level": 8,
+        "recentYear": 2024,
+        "years": 5
+      },
+      {
+        "mainKeyword": "GIT",
+        "keywords": "GitHub, GitLab, Bitbucket, Azure",
+        "level": 10,
+        "recentYear": 2024,
+        "years": 12
+      },
+      {
+        "mainKeyword": "Jira",
+        "level": 9,
+        "recentYear": 2022,
+        "years": 14
       }
     ]
   }

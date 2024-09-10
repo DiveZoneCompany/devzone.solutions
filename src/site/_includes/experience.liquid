@@ -1,6 +1,5 @@
 ---
 layout: page
-draft: true
 ---
 
 {{ content }}
@@ -19,34 +18,17 @@ draft: true
             </tr>
             </thead>
             <tbody>
-            {% for item in category.items %}
+            {% assign byRecentYear = category.items | sort: "years" | sort: "recentYear" | reverse %}
+            {% for item in byRecentYear %}
+                {% assign stars = item.level | divided_by: 2 | floor %}
+                {% assign half_star = item.level | modulo: 2 %}
                 <tr>
                     <td class="experience--category-label"><strong>{{item.mainKeyword}}</strong>{%  if item.keywords %}, {{ item.keywords }}{% endif %}</td>
                     <td class="experience--category-year">{{ item.recentYear }}</td>
                     <td class="experience--category-years">{{ item.years }}</td>
                     <td class="experience--category-level">
-                        {% case item.level %}
-                        {% when 1 %}
-                            🌗🌑🌑🌑🌑
-                        {% when 2 %}
-                            🌕🌑🌑🌑🌑
-                        {% when 3 %}
-                            🌕🌗🌑🌑🌑
-                        {% when 4 %}
-                            🌕🌕🌑🌑🌑
-                        {% when 5 %}
-                            🌕🌕🌗🌑🌑
-                        {% when 6 %}
-                            🌕🌕🌕🌑🌑
-                        {% when 7 %}
-                            🌕🌕🌕🌗🌑
-                        {% when 8 %}
-                            🌕🌕🌕🌕🌑
-                        {% when 9 %}
-                            🌕🌕🌕🌕🌗
-                        {% when 10 %}
-                            🌕🌕🌕🌕🌕
-                        {% endcase %}
+                        {%- for i in (1..stars) %}<i class="fa-solid fa-star"></i>{%- endfor %}
+                        {%- if half_star == 1 %}<i class="fa-solid fa-star-half"></i>{%- endif %}
                     </td>
                 </tr>
             {% endfor %}

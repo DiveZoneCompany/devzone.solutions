@@ -2,12 +2,12 @@
 layout: experience
 title: Experience
 tags: header
-draft: true
 eleventyNavigation:
   title: Experience
   key: experience
   order: 21
 ---
 
-As a Technical Lead Developer, I should be able to determine someone's experience level. This is how I rate my own experience levels:
-
+As a Technical Lead Developer, I can estimate someone's experience level. Here is how I rate my experience levels:
+* This list is incomplete; I'm mentioning the most important items.
+* Ordered by most recent year and then by number of years of experience
