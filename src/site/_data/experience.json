@@ -61,6 +61,13 @@
         "years": 24
       },
       {
+        "mainKeyword": "CSS",
+        "keywords": "SASS, SCSS",
+        "level": 8,
+        "recentYear": 2024,
+        "years": 10
+      },
+      {
         "mainKeyword": "JavaScript",
         "keywords": "TypeScript",
         "level": 9,
@@ -69,7 +76,7 @@
       },
       {
         "mainKeyword": "Angular",
-        "keywords": "AngularJS, NgRx",
+        "keywords": "AngularJS, NgRx, NgXS",
         "level": 9,
         "recentYear": 2023,
         "years": 8
@@ -119,7 +126,8 @@
         "years": 2
       },
       {
-        "mainKeyword": "Junit 3.x, 4.x, 5.x",
+        "mainKeyword": "Junit",
+        "keywords": "3.x, 4.x, 5.x",
         "level": 10,
         "recentYear": 2024,
         "years": 22

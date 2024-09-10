@@ -29,6 +29,7 @@ layout: page
                     <td class="experience--category-level">
                         {%- for i in (1..stars) %}<i class="fa-solid fa-star"></i>{%- endfor %}
                         {%- if half_star == 1 %}<i class="fa-solid fa-star-half"></i>{%- endif %}
+                        {%- if item.level == 0 %}{%- for i in (1..5) %}<i class="fa-thin fa-star"></i>{%- endfor %}{%- endif %}
                     </td>
                 </tr>
             {% endfor %}
