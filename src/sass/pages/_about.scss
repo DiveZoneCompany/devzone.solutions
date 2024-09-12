@@ -8,3 +8,10 @@
         max-width: 250px;
     }
 }
+
+@media screen and (max-width: 725px) {
+    .main--about img {
+       float: none;
+       margin: 0 auto;
+    }
+}
