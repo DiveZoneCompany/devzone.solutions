@@ -5,7 +5,7 @@ eleventyNavigation:
   key: flutter
   title: Mobile/Flutter
   parent: expertise
-  order: 88
+  order: 99
 ---
 
 As an Flutter Developer...

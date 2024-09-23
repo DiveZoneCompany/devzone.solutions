@@ -5,7 +5,7 @@ eleventyNavigation:
   key: scrum
   title: Scrum Master
   parent: expertise
-  order: 99
+  order: 88
 ---
 
 As a certified Professional Scrum Master, I can assist, coach or 'lead' the team in productively implementing the scrum methodology. 
