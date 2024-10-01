@@ -26,7 +26,7 @@
   },
   "homepage": "https://devzone.solutions/",
   "devDependencies": {
-    "@11ty/eleventy": "3.0.0-beta.2",
+    "@11ty/eleventy": "3.0.0",
     "@11ty/eleventy-navigation": "^0.3.5",
     "@divezone/divezone-web-styles": "^0.7.3",
     "html-minifier-terser": "^7.2.0",
