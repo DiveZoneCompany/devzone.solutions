@@ -1,0 +1,36 @@
+{% assign pages = collections.header | eleventyNavigation %}
+{% assign parent = null %}
+<nav class="nav--main">
+  <ul role="list">
+    {%- for entry in pages %}
+      <li
+        {% if page.url contains entry.url %}
+        class="active"
+        {% endif %}>
+        <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+        {% if entry.children != empty %}
+          {% if page.url contains entry.url %}
+            {% assign parent = entry.key %}
+          {% endif %}
+        {% endif %}
+      </li>
+    {%- endfor %}
+  </ul>
+</nav>
+{% if parent %}
+  {% assign children = collections.all | eleventyNavigation: parent %}
+  {% if children.size > 0 %}
+    <nav class="nav--sub">
+      <ul role="list">
+        {%- for entry in children %}
+          <li
+            {% if entry.url == page.url %}
+            class="active"
+            {% endif %}>
+            <a href="{{ entry.url | url }}">{{ entry.title }}</a>
+          </li>
+        {%- endfor %}
+      </ul>
+    </nav>
+  {% endif %}
+{% endif %}

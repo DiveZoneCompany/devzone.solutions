@@ -4,28 +4,33 @@
     © {% year %}
     {{ author | default: manifest.meta.author }}
     <div class="footer--trademarks">
-      DevZone, DevZone Solutions and <a href="https://dvz.one/one" target="_blank">DevZone One</a> are registered trademarks of <a href="https://dvz.one" target="_blank">The DiveZone Company</a>
+      DevZone, DevZone Solutions and
+      <a href="https://dvz.one/one" target="_blank">DevZone One</a>
+      are registered trademarks of
+      <a href="https://dvz.one" target="_blank">The DiveZone Company</a>
     </div>
   </div>
 
-  <div class='footer--nav'>
-    <nav class='nav--main'>
-      <ul role='list'>
-        {%- for entry in pages %}
-          <li
-            {% if entry.url == page.url %}
-              class='active'
-            {% endif %}>
-            <a href='{{ entry.url | default: url }}'>{{ entry.title }}</a>
-          </li>
-        {%- endfor %}
-      </ul>
-    </nav>
-  </div>
+  <nav class='footer--nav'>
+    <ul role='list'>
+      {%- for entry in pages %}
+        <li
+          {% if entry.url == page.url %}
+          class='active'
+          {% endif %}>
+          <a href='{{ entry.url | default: url }}'>{{ entry.title }}</a>
+        </li>
+      {%- endfor %}
+    </ul>
+  </nav>
 
   <div class="footer--socials">
     {% for social in socials %}
-      <a id="social-{{ social.key | slugify }}" class="{{ social.icon }}" href="{{ social.url }}" target="_blank">
+      <a
+        id="social-{{ social.key | slugify }}"
+        class="{{ social.icon }}"
+        href="{{ social.url }}"
+        target="_blank">
         <span class="sr-only">{{ social.key }}</span>
       </a>
     {% endfor %}
