@@ -1,19 +1,7 @@
 .portfolio--items {
-  column-count: 4;
+  columns: 4 230px;
   column-gap: 1rem;
   padding: 0 .5rem;
-
-  @media screen and (max-width: 975px) {
-    column-count: 3;
-  }
-
-  @media screen and (max-width: 725px) {
-    column-count: 2;
-  }
-
-  @media screen and (max-width: 500px) {
-    column-count: 1;
-  }
 }
 
 .portfolio--link {

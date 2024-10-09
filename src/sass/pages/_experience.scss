@@ -1,10 +1,11 @@
 .experience--categories {
-  column-count: 2;
+  columns: 2 400px;
   column-gap: 1rem;
   padding: 0 .5rem;
 
-  @media screen and (max-width: 900px) {
-    column-count: 1;
+  progress {
+    accent-color: var(--theme-primary);
+    max-width: 75px;
   }
 
   table {
@@ -53,6 +54,5 @@
   tbody .experience--category-level {
     width: 80px;
     font-size: 0.7rem;
-    letter-spacing: -2px;
   }
 }
