@@ -38,19 +38,24 @@ eleventyImport:
   </div>
 </div>
 
-<img src="/logos/{{ page.fileSlug }}.png" align="right">
+<div class="portfolio--item-content">
 
-<h1>{{ title }}</h1>
+  <img src="/logos/{{ page.fileSlug }}.png" align="right">
 
-<ul>
-  <li>
-    <strong>Role
-      {%- if roles.length > 1 -%}s{%- endif -%}
-      :</strong>
-  </li>
-  {%- for r in roles -%}
-    <li>{{ r }}</li>
-  {%- endfor -%}
-</ul>
+  <h1>{{ title }}</h1>
 
-{{ content }}
+  <div>
+    <ul>
+      <li>
+        <strong>Role
+          {%- if roles.length > 1 -%}s{%- endif -%}
+          :</strong>
+      </li>
+      {%- for r in roles -%}
+        <li>{{ r }}</li>
+      {%- endfor -%}
+    </ul>
+
+    {{ content }}
+  </div>
+</div>
