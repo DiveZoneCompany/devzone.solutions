@@ -1,5 +1,13 @@
 ---
 layout: base
+eleventyImport:
+  collections: ["homeSorted"]
 ---
 
 {{ content }}
+
+{%- for item in collections.homeSorted -%}
+  <section class="home home-{{ item.data.page.fileSlug }}">
+    {{ item.content }}
+  </section>
+{%- endfor -%}
