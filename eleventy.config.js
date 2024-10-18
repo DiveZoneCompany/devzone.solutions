@@ -18,8 +18,9 @@ export default async function (eleventyConfig) {
     prodMode = runMode === "build";
   });
   // collections
-  eleventyConfig.addCollection("portfolioSorted", collections.portfolioSorted);
   eleventyConfig.addCollection("expertiseSorted", collections.expertiseSorted);
+  eleventyConfig.addCollection("homeSorted", collections.homeSorted);
+  eleventyConfig.addCollection("portfolioSorted", collections.portfolioSorted);
   // filters
   eleventyConfig.addFilter("htmlDateString", filters.htmlDateString);
   eleventyConfig.addFilter("md", filters.md);

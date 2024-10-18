@@ -12,6 +12,12 @@ const expertiseSorted = (collectionApi) => {
   });
 }
 
+const homeSorted = (collectionApi) => {
+  return collectionApi.getFilteredByTag('home').sort(function (a, b) {
+    return a.data.order - b.data.order;
+  });
+}
+
 export default {
-  portfolioSorted, expertiseSorted
+  portfolioSorted, expertiseSorted, homeSorted
 };

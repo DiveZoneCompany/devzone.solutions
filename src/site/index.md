@@ -1,14 +1,10 @@
 ---
-layout: base
+layout: home
 description: No nonsense software development!
 ---
 
-## Welcome
+## Welcome to DevZone Solutions
 
 There is a welcome page coming, I promise...
 
 Meanwhile, have a look at these pages:
-* [About me](/about)
-* [Experience](/experience)
-* [Portfolio](/portfolio)
-* [How to contact me](/contact)
