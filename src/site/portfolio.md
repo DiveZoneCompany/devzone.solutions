@@ -1,7 +1,8 @@
 ---
 layout: portfolio
 title: Portfolio
-tags: header
+tags: ['header', 'home']
+homeIcon: fa-duotone fa-solid fa-business-time
 eleventyNavigation:
   key: portfolio
   title: Portfolio

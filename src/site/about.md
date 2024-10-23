@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Who am I
-tags: header
+tags: ['header', 'home']
+homeIcon: fa-duotone fa-solid fa-images-user
 eleventyNavigation:
   key: Who am I
   order: 10

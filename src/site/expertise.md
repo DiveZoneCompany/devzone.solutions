@@ -1,7 +1,8 @@
 ---
 layout: expertise
 title: Fields of Expertise
-tags: header
+tags: ['header', 'home']
+homeIcon: fa-duotone fa-solid fa-graduation-cap
 draft: true
 eleventyNavigation:
   title: Expertise

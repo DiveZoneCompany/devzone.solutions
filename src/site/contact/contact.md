@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Contact
-tags: ['header', 'footer']
+tags: ['header', 'home', 'footer']
+homeIcon: fa-duotone fa-solid fa-comments
 eleventyNavigation:
   key: Contact
   order: 99

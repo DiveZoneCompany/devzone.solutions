@@ -14,7 +14,7 @@ const expertiseSorted = (collectionApi) => {
 
 const homeSorted = (collectionApi) => {
   return collectionApi.getFilteredByTag('home').sort(function (a, b) {
-    return a.data.order - b.data.order;
+    return a.data.eleventyNavigation.order - b.data.eleventyNavigation.order;
   });
 }
 

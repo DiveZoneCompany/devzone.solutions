@@ -1,0 +1,28 @@
+.main--home {
+    text-align: center;
+}
+
+.home--tiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+}
+
+.home--tile {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 200px;
+    border: 1px solid var(--theme-secondary);
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px 0px var(--theme-secondary);
+    justify-content: center;
+    align-items: center;
+    * {
+        width: fit-content;
+    }
+    i {
+        font-size: 48px;
+    }
+}

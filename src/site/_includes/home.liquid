@@ -6,8 +6,15 @@ eleventyImport:
 
 {{ content }}
 
+<div class="home--tiles">
 {%- for item in collections.homeSorted -%}
-  <section class="home home-{{ item.data.page.fileSlug }}">
-    {{ item.content }}
-  </section>
+  <a href="{{ item.data.page.url }}">
+  <div class="home--tile home--tile--{{ item.data.page.fileSlug }}">
+    <i class="{{ item.data.homeIcon }}"></i>
+    <h3>
+      {{ item.data.title }}
+    </h3>
+  </div>
+  </a>
 {%- endfor -%}
+</div>

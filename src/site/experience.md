@@ -1,7 +1,8 @@
 ---
 layout: experience
 title: Experience
-tags: header
+tags: ['header', 'home']
+homeIcon: fa-duotone fa-solid fa-dumbbell
 eleventyNavigation:
   title: Experience
   key: experience
