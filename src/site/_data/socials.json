@@ -33,5 +33,10 @@
     "key": "Github",
     "url": "https://github.com/DevZoneOne",
     "icon": "fab fa-github-square"
+  },
+  {
+    "key": "BlueSky",
+    "url": "https://bsky.app/profile/devzone.bsky.social",
+    "icon": "fab fa-square-bluesky"
   }
 ]
