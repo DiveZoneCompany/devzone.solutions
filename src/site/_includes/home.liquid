@@ -9,7 +9,7 @@ eleventyImport:
 <div class="home--tiles">
 {%- for item in collections.homeSorted -%}
   <a href="{{ item.data.page.url }}">
-  <div class="home--tile home--tile--{{ item.data.page.fileSlug }}">
+  <div {% if item.data.draft %}draft{% endif %} class="home--tile home--tile--{{ item.data.page.fileSlug }}">
     <i class="{{ item.data.homeIcon }}"></i>
     <h3>
       {{ item.data.title }}

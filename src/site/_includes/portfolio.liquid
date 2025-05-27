@@ -9,7 +9,7 @@ eleventyImport:
 <div class="portfolio--items">
   {%- for item in collections.portfolioSorted -%}
     <a href="{{ item.url }}" class="portfolio--link">
-      <div class="portfolio--item portfolio--item--{{ item.data.page.fileSlug }}">
+      <div {% if item.data.draft %}draft{% endif %} class="portfolio--item portfolio--item--{{ item.data.page.fileSlug }}">
         <div class="portfolio--item--title">{{ item.data.title }}</div>
         <div class="portfolio--item--logo"><img src="/logos/{{ item.data.page.fileSlug }}.png"></div>
         <div class="portfolio--item--content">{{ item.data.role | md }}</div>
