@@ -6,7 +6,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0 auto;
     gap: 32px;
+    &:has(> :last-child:nth-child(4)) {
+        width: 450px;
+    }
+    &:has(> :last-child:nth-child(5)),
+    &:has(> :last-child:nth-child(6)) {
+        width: 750px;
+    }
 }
 
 .home--tile {

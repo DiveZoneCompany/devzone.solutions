@@ -17,7 +17,7 @@
         <li
           {% if entry.url == page.url %}
           class='active'
-          {% endif %}>
+          {% endif %}{% if entry.data.draft %}draft{% endif %}>
           <a href='{{ entry.url | default: url }}'>{{ entry.title }}</a>
         </li>
       {%- endfor %}

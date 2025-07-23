@@ -5,8 +5,8 @@
     {%- for entry in pages %}
       <li
         {% if page.url contains entry.url %}
-        class="active"
-        {% endif %}>
+        class="active" 
+        {% endif %}{% if entry.data.draft %}draft{% endif %}>
         <a href="{{ entry.url | url }}">{{ entry.title }}</a>
         {% if entry.children != empty %}
           {% if page.url contains entry.url %}
@@ -26,7 +26,7 @@
           <li
             {% if entry.url == page.url %}
             class="active"
-            {% endif %}>
+            {% endif %}{% if entry.data.draft %}draft{% endif %}>
             <a href="{{ entry.url | url }}">{{ entry.title }}</a>
           </li>
         {%- endfor %}

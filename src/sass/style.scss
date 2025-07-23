@@ -1,7 +1,6 @@
 @use "pkg:@divezone/divezone-web-styles" as dz;
 @use "sass:map";
 
-@use "components";
 @use "pages";
 
 @include dz.theme(map.get(dz.$themes, green));
