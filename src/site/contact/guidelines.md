@@ -14,8 +14,8 @@ Please keep the following guidelines in mind:
 
 - I don't like cold-calling. It disturbs my work, so if we haven't agreed on a call, please don't.
 - I'm not interested in any permanent position.
-- My resume is only offered after an email confirmation (email), and you always follow up.  
-  So please don't offer me on a project and never inform me about the results.
+- My resume is only offered after an email confirmation, and you always follow up.  
+  So please don't offer me on a project and then never inform me about the results.
 - You can send me a connect request on LinkedIn if **all** of the following apply:
   - Your company is based in the Netherlands.
   - You are based and living in the Netherlands, not, for example, in the UK with a virtual Dutch number.

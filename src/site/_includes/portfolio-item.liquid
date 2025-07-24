@@ -38,9 +38,9 @@ eleventyImport:
   </div>
 </div>
 
-<div class="portfolio--item-content">
+<div class="portfolio-item--content">
 
-  <img src="/logos/{{ page.fileSlug }}.png" align="right">
+  <img src="/logos/{{ page.fileSlug }}.png">
 
   <h1>{{ title }}</h1>
 
@@ -55,7 +55,7 @@ eleventyImport:
         <li>{{ r }}</li>
       {%- endfor -%}
     </ul>
-
+    
     {{ content }}
   </div>
 </div>
