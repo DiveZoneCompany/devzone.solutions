@@ -4,6 +4,8 @@ eleventyImport:
   collections: ["portfolioSorted"]
 ---
 {% assign roles = role | split: ' / ' %}
+{% assign communications = communication | split: ',' %}
+{% assign technologies = technology | split: ',' %}
 {% assign previousPost = collections.portfolioSorted | getPreviousCollectionItem %}
 {% assign nextPost = collections.portfolioSorted | getNextCollectionItem %}
 
@@ -38,13 +40,13 @@ eleventyImport:
   </div>
 </div>
 
-<div class="portfolio-item--content">
+<div class="portfolio-item">
 
   <img src="/logos/{{ page.fileSlug }}.png">
 
   <h1>{{ title }}</h1>
 
-  <div>
+  <div class="portfolio-item--tags">
     <ul>
       <li>
         <strong>Role
@@ -55,7 +57,25 @@ eleventyImport:
         <li>{{ r }}</li>
       {%- endfor -%}
     </ul>
+    <ul>
+      <li>
+        <strong>Communication:</strong>
+      </li>
+      {%- for c in communications -%}
+        <li>{{ c }}</li>
+      {%- endfor -%}
+    </ul>
+    <ul>
+      <li>
+        <strong>Technologies:</strong>
+      </li>
+      {%- for t in technologies -%}
+        <li>{{ t }}</li>
+      {%- endfor -%}
+    </ul>
+  </div>
     
+  <div class="portfolio-item--content">
     {{ content }}
   </div>
 </div>

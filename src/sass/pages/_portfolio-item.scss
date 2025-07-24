@@ -1,8 +1,9 @@
-.portfolio-item--content {
+.portfolio-item {
 
   display: grid;
   grid-template-areas:
         "portfolio-title portfolio-image"
+        "portfolio-tags portfolio-image"
         "portfolio-content portfolio-content";
   grid-template-columns: 1fr auto;
 
@@ -10,6 +11,7 @@
     grid-template-areas:
           "portfolio-title"
           "portfolio-image"
+          "portfolio-tags"
           "portfolio-content";
     grid-template-columns: 1fr;
   }
@@ -25,14 +27,19 @@
   >img {
     grid-area: portfolio-image;
     justify-self: end;
+    align-self: center;
     padding: 32px 0 16px 16px;
     @media screen and (max-width: 725px) {
       justify-self: center;
       padding: 8px 0;
     }
   }
+  
+  .portfolio-item--content {
+    grid-area: portfolio-tags;
+  }
 
-  >div {
+  .portfolio-item--content {
     grid-area: portfolio-content;
     display: block;
   }
