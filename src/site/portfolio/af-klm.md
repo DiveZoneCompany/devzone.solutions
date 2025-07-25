@@ -11,6 +11,6 @@ worked party on location, and partly offshore in India.
 
 The projects are mostly applications used by the aircrew or for managing this group of staff
 members. The biggest project was a rebuild and extension of an application for supplies used in all
-Supply Centres Worldwide in the network of both KLM and Air France. This included a migration from
-AngularJS to Angular, and Spring Framework to Spring Boot and is used as a template for other
-comparable project upgrades.
+Supply Centres worldwide in the network of both KLM and Air France. This included a migration from
+AngularJS to Angular, and Spring Framework to Spring Boot and is afterwards used as a template for other
+comparable project migrations.
