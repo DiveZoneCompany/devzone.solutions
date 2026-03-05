@@ -5,21 +5,21 @@
       {
         "mainKeyword": "Senior Java Developer",
         "level": 10,
-        "recentYear": 2025,
-        "years": 25
+        "recentYear": 2026,
+        "years": 26
       },
       {
         "mainKeyword": "System design / development",
         "level": 10,
-        "recentYear": 2025,
-        "years": 25
+        "recentYear": 2026,
+        "years": 26
       },
       {
         "mainKeyword": "Scrum Master",
         "description": "Certified Scrum Master since 2013",
         "level": 9,
-        "recentYear": 2025,
-        "years": 4
+        "recentYear": 2026,
+        "years": 5
       },
       {
         "mainKeyword": "Technical Team Lead (Full Stack)",
@@ -36,8 +36,8 @@
         "mainKeyword": "Financial",
         "description": "Banks, Payment suppliers",
         "level": 0,
-        "recentYear": 2025,
-        "years": 10
+        "recentYear": 2026,
+        "years": 11
       },
       {
         "mainKeyword": "Public Transport",
@@ -58,16 +58,36 @@
         "recentYear": 2016,
         "years": 9
       },
-      { "mainKeyword": "Retail", "level": 0, "recentYear": 2015, "years": 1 },
+      {
+        "mainKeyword": "Retail",
+        "level": 0,
+        "recentYear": 2015,
+        "years": 1
+      },
       {
         "mainKeyword": "Publishers",
         "level": 0,
         "recentYear": 2015,
         "years": 1
       },
-      { "mainKeyword": "Industry", "level": 0, "recentYear": 2007, "years": 2 },
-      { "mainKeyword": "Telecom", "level": 0, "recentYear": 2005, "years": 3 },
-      { "mainKeyword": "Tourism", "level": 0, "recentYear": 2005, "years": 3 }
+      {
+        "mainKeyword": "Industry",
+        "level": 0,
+        "recentYear": 2007,
+        "years": 2
+      },
+      {
+        "mainKeyword": "Telecom",
+        "level": 0,
+        "recentYear": 2005,
+        "years": 3
+      },
+      {
+        "mainKeyword": "Tourism",
+        "level": 0,
+        "recentYear": 2005,
+        "years": 3
+      }
     ]
   },
   {
@@ -77,29 +97,29 @@
         "mainKeyword": "Java",
         "description": "JEE, EJB, Servlets, JNDI, RMI, Lambda, Streams, Reactive",
         "level": 10,
-        "recentYear": 2025,
-        "years": 25
+        "recentYear": 2026,
+        "years": 26
       },
       {
         "mainKeyword": "HTML",
         "description": "DHTML, XHTML, HTML5",
         "level": 10,
-        "recentYear": 2025,
-        "years": 25
+        "recentYear": 2026,
+        "years": 26
       },
       {
         "mainKeyword": "CSS",
         "description": "SASS, SCSS",
         "level": 8,
-        "recentYear": 2025,
-        "years": 11
+        "recentYear": 2026,
+        "years": 12
       },
       {
         "mainKeyword": "JavaScript",
         "description": "TypeScript",
         "level": 9,
-        "recentYear": 2025,
-        "years": 24
+        "recentYear": 2026,
+        "years": 25
       },
       {
         "mainKeyword": "Flutter",
@@ -111,8 +131,8 @@
       {
         "mainKeyword": "Kotlin",
         "level": 3,
-        "recentYear": 2020,
-        "years": 1
+        "recentYear": 2026,
+        "years": 2
       }
     ]
   },
@@ -123,21 +143,21 @@
         "mainKeyword": "Mockito",
         "description": "EasyMock",
         "level": 10,
-        "recentYear": 2025,
-        "years": 12
+        "recentYear": 2026,
+        "years": 13
       },
       {
         "mainKeyword": "Selenium",
         "description": "UI testing",
         "level": 10,
-        "recentYear": 2024,
-        "years": 7
+        "recentYear": 2026,
+        "years": 8
       },
       {
         "mainKeyword": "Karate",
         "level": 8,
-        "recentYear": 2025,
-        "years": 4
+        "recentYear": 2026,
+        "years": 5
       },
       {
         "mainKeyword": "Cypress",
@@ -149,14 +169,14 @@
         "mainKeyword": "Junit",
         "description": "3.x, 4.x, 5.x",
         "level": 10,
-        "recentYear": 2025,
-        "years": 23
+        "recentYear": 2026,
+        "years": 24
       },
       {
         "mainKeyword": "Cucumber",
         "level": 8,
-        "recentYear": 2025,
-        "years": 4
+        "recentYear": 2026,
+        "years": 5
       }
     ]
   },
@@ -167,15 +187,15 @@
         "mainKeyword": "Spring Framework",
         "description": "Spring Boot, Spring Data, Spring Security, WebFlux",
         "level": 10,
-        "recentYear": 2025,
-        "years": 20
+        "recentYear": 2026,
+        "years": 21
       },
       {
         "mainKeyword": "JPA / Hibernate",
         "description": "JPQL, HQL, Annotations",
         "level": 10,
-        "recentYear": 2025,
-        "years": 19
+        "recentYear": 2026,
+        "years": 20
       },
       {
         "mainKeyword": "Angular",
@@ -199,28 +219,28 @@
       {
         "mainKeyword": "Visual Studio Code",
         "level": 10,
-        "recentYear": 2025,
-        "years": 8
+        "recentYear": 2026,
+        "years": 9
       },
       {
         "mainKeyword": "GIT",
         "description": "GitHub, GitLab, Bitbucket, Azure",
         "level": 10,
-        "recentYear": 2025,
-        "years": 13
+        "recentYear": 2026,
+        "years": 14
       },
       {
         "mainKeyword": "Jira",
         "level": 9,
-        "recentYear": 2022,
-        "years": 14
+        "recentYear": 2026,
+        "years": 15
       },
       {
         "mainKeyword": "Scrum / Agile",
         "description": "Including Certified Scrum Master",
         "level": 10,
-        "recentYear": 2025,
-        "years": 15
+        "recentYear": 2026,
+        "years": 16
       }
     ]
   },
@@ -230,8 +250,8 @@
       {
         "mainKeyword": "Azure DevOps",
         "level": 8,
-        "recentYear": 2025,
-        "years": 6
+        "recentYear": 2026,
+        "years": 7
       },
       {
         "mainKeyword": "Google Firebase",

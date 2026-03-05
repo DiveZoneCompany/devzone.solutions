@@ -8,9 +8,11 @@
     justify-content: center;
     margin: 0 auto;
     gap: 32px;
+
     &:has(> :last-child:nth-child(4)) {
         width: 450px;
     }
+
     &:has(> :last-child:nth-child(5)),
     &:has(> :last-child:nth-child(6)) {
         width: 750px;
@@ -24,12 +26,13 @@
     height: 200px;
     border: 1px solid var(--theme-secondary);
     border-radius: 8px;
-    box-shadow: 5px 5px 5px 0px var(--theme-secondary);
     justify-content: center;
     align-items: center;
+
     * {
         width: fit-content;
     }
+
     i {
         font-size: 48px;
     }
