@@ -13,7 +13,7 @@ eleventyImport:
   <a href="{{ item.data.page.url }}" class="home--tile-link">
   <div {% if item.data.draft %}draft{% endif %} class="home--tile home--tile--{{ item.data.page.fileSlug }}">
     <div class="home--tile-icon">
-      <i class="{{ item.data.homeIcon }}"></i>
+      <img src="{{ item.data.homeIcon }}" alt="{{ item.data.title }} icon" class="home--tile-image">
     </div>
     <div class="home--tile-content">
       <h3>{{ item.data.title }}</h3>

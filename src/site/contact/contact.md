@@ -2,7 +2,7 @@
 layout: page
 title: Contact
 tags: ['header', 'home', 'footer']
-homeIcon: fa-duotone fa-solid fa-comments
+homeIcon: /images/icons/contact.svg
 eleventyNavigation:
   key: Contact
   order: 99

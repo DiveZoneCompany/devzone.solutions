@@ -2,7 +2,7 @@
 layout: expertise
 title: Fields of Expertise
 tags: ['header', 'home']
-homeIcon: fa-duotone fa-solid fa-graduation-cap
+homeIcon: /images/icons/expertise.svg
 draft: true
 eleventyNavigation:
   title: Expertise

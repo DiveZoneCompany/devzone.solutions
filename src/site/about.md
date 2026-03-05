@@ -2,7 +2,7 @@
 layout: page
 title: Who am I
 tags: ['header', 'home']
-homeIcon: fa-duotone fa-solid fa-images-user
+homeIcon: /images/icons/about.svg
 eleventyNavigation:
   key: Who am I
   order: 10

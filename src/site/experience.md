@@ -2,7 +2,7 @@
 layout: experience
 title: Experience
 tags: ['header', 'home']
-homeIcon: fa-duotone fa-solid fa-dumbbell
+homeIcon: /images/icons/experience.svg
 eleventyNavigation:
   title: Experience
   key: experience

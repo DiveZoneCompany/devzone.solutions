@@ -2,7 +2,7 @@
 layout: portfolio
 title: Portfolio
 tags: ['header', 'home']
-homeIcon: fa-duotone fa-solid fa-business-time
+homeIcon: /images/icons/portfolio.svg
 eleventyNavigation:
   key: portfolio
   title: Portfolio

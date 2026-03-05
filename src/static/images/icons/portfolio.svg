@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <defs>
+    <filter id="solid-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="3" dy="3" stdDeviation="0" flood-color="#000" flood-opacity="1"/>
+    </filter>
+  </defs>
+  <rect x="15" y="35" width="70" height="45" rx="5" fill="#43aa8b" stroke="#000" stroke-width="4" filter="url(#solid-shadow)"/>
+  <path d="M 15,35 L 50,55 L 85,35 Z" fill="#4cc9f0" stroke="#000" stroke-width="4"/>
+  <path d="M 35,35 V 20 C 35,15 65,15 65,20 V 35" fill="none" stroke="#000" stroke-width="4" stroke-linecap="round"/>
+  <rect x="42" y="45" width="16" height="10" rx="2" fill="#ffdd57" stroke="#000" stroke-width="4"/>
+  <!-- document poking out -->
+  <rect x="25" y="10" width="20" height="25" fill="#fff" stroke="#000" stroke-width="3" transform="rotate(-15 25 10)"/>
+  <line x1="28" y1="15" x2="42" y2="15" stroke="#000" stroke-width="2" transform="rotate(-15 25 10)"/>
+</svg>
