@@ -19,8 +19,9 @@
 }
 
 .home--tiles {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 2rem;
     width: 100%;
     max-width: 1100px;
@@ -28,6 +29,8 @@
     padding: 0 1rem;
 
     a.home--tile-link {
+        flex: 0 0 280px;
+        width: 280px;
         text-decoration: none;
         color: inherit;
         display: block;
