@@ -1,0 +1,29 @@
+{{ $pages := site.Menus.main }}
+{{ $children := false }}
+<nav class="nav--main">
+  <ul role="list">
+    {{ range $pages }}
+    <li {{ if .Page.Draft -}}draft {{ end -}} class="{{ if $.Page.HasMenuCurrent " main" . }}active{{ end }}{{ if
+      $.Page.IsMenuCurrent "main" . }} active{{ end }}">
+      <a href="{{ .URL }}">{{ .Name }}</a>
+      {{ if .HasChildren }}
+      {{ if or ($.Page.IsMenuCurrent .Menu .) ($.Page.HasMenuCurrent .Menu .) }}
+      {{ $children = .Children }}
+      {{ end }}
+      {{ end }}
+    </li>
+    {{ end }}
+  </ul>
+</nav>
+
+{{ if $children }}
+<nav class="nav--sub">
+  <ul role="list">
+    {{ range $children }}
+    <li class="{{ if eq $.Page.RelPermalink .URL }}active{{ end }}">
+      <a href="{{ .URL | relURL }}">{{ .Name }}</a>
+    </li>
+    {{ end }}
+  </ul>
+</nav>
+{{ end }}

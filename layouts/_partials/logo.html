@@ -1,0 +1,21 @@
+<div class="logo logo--green">
+    <div class="logo--pretitle">{{ .preTitle }}</div>
+    <div></div>
+    <div class="logo--titlePart1">
+        {{ default "DIVE" .titlePart1 }}
+    </div>
+    <div class="logo--titlePart2">
+        {{ default "ZONE" .titlePart2 }}
+    </div>
+    <div></div>
+    <div class="logo--posttitle">
+      {{- if .postTitle }}
+        {{- range split .postTitle "" }}
+          <span>{{ . }}</span>
+        {{- end }}
+      {{- end }}
+    </div>
+    {{- if .slogan }}
+    <div class="logo--slogan">{{ .slogan }}</div>
+    {{- end }}
+</div>

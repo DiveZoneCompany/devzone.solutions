@@ -1,0 +1,18 @@
+<div class="name-logo">
+    <div class="name-logo-pretitle">{{ .Get "preTitle" }}</div>
+    <div></div>
+    <div class="name-logo-dive">
+        {{ default "DIVE" (.Get "titlePart1") }}
+    </div>
+    <div class="name-logo-zone">
+        {{ default "ZONE" (.Get "titlePart2") }}
+    </div>
+    <div></div>
+    <div class="name-logo-posttitle">
+        {{- if .Get "postTitle" -}}
+            {{- range split (.Get "postTitle") "" -}}
+            <span>{{ . }}</span>
+            {{- end -}}
+        {{- end -}}
+    </div>
+</div>

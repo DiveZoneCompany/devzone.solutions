@@ -1,0 +1,83 @@
+{{ define "main" }}
+{{ $roles := split .Params.role " / " }}
+{{ $communications := split .Params.communication "," }}
+{{ $technologies := split .Params.technology "," }}
+
+{{ $pages := sort (where site.RegularPages "Section" "portfolio") "Title" "asc" }}
+{{ $previousPost := false }}
+{{ $nextPost := false }}
+{{ $foundIndex := -1 }}
+{{ range $i, $e := $pages }}
+  {{ if eq $e.RelPermalink $.RelPermalink }}
+    {{ $foundIndex = $i }}
+  {{ end }}
+{{ end }}
+
+{{ if ne $foundIndex -1 }}
+  {{ if gt $foundIndex 0 }}{{ $previousPost = index $pages (sub $foundIndex 1) }}{{ else }}{{ $previousPost = index $pages (sub (len $pages) 1) }}{{ end }}
+  {{ if lt $foundIndex (sub (len $pages) 1) }}{{ $nextPost = index $pages (add $foundIndex 1) }}{{ else }}{{ $nextPost = index $pages 0 }}{{ end }}
+{{ end }}
+
+<div class="portfolio--prev-next">
+  <div class="prev">
+    {{ if $previousPost }}
+      <a href="{{ $previousPost.RelPermalink }}">
+        <i class="fa-thin fa-hand-point-left"></i>
+        {{ $previousPost.Title }}</a>
+    {{ end }}
+    &nbsp;
+  </div>
+  <div class="back">
+    <a href="/portfolio">
+      <i class="fa-thin fa-hand-point-up"></i>
+      Back to Portfolio overview</a>
+  </div>
+  <div class="next">
+    &nbsp;
+    {{ if $nextPost }}
+    <a href="{{ $nextPost.RelPermalink }}">
+      {{ $nextPost.Title }}
+      <i class="fa-thin fa-hand-point-right"></i>
+    </a>
+    {{ end }}
+  </div>
+</div>
+
+<div class="portfolio-item">
+
+  <img src="/logos/{{ .File.TranslationBaseName }}.png">
+
+  <h1>{{ .Title }}</h1>
+
+  <div class="portfolio-item--tags">
+    <ul>
+      <li>
+        <strong>Role{{ if gt (len $roles) 1 }}s{{ end }}:</strong>
+      </li>
+      {{ range $roles }}
+        <li>{{ . }}</li>
+      {{ end }}
+    </ul>
+    <ul>
+      <li>
+        <strong>Communication:</strong>
+      </li>
+      {{ range $communications }}
+        <li>{{ . }}</li>
+      {{ end }}
+    </ul>
+    <ul>
+      <li>
+        <strong>Technologies:</strong>
+      </li>
+      {{ range $technologies }}
+        <li>{{ . }}</li>
+      {{ end }}
+    </ul>
+  </div>
+    
+  <div class="portfolio-item--content">
+    {{ .Content }}
+  </div>
+</div>
+{{ end }}

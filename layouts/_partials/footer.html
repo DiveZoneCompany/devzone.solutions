@@ -1,0 +1,40 @@
+{{ $pages := site.Menus.footer }}
+<footer>
+  <div class="footer--copyright">
+    © {{ now.Format "2006" }}
+    {{ default .Site.Params.author .Params.author }}
+    <div class="footer--trademarks">
+      DevZone, DevZone Solutions and
+      <a href="https://dvz.one/one" target="_blank">DevZone One</a>
+      are registered trademarks of
+      <a href="https://dvz.one" target="_blank">The DiveZone Company</a>
+    </div>
+  </div>
+
+  <nav class='footer--nav'>
+    <ul role='list'>
+      {{ range $pages }}
+        <li class="{{ if eq .URL $.Page.RelPermalink }}active{{ end }}">
+          <a href='{{ .URL }}'>{{ .Name }}</a>
+        </li>
+      {{ end }}
+    </ul>
+  </nav>
+
+  <div class="footer--socials">
+    {{ range .Site.Data.socials }}
+      <a
+        id="social-{{ .key | urlize }}"
+        class="{{ .icon }}"
+        href="{{ .url }}"
+        target="_blank">
+        <span class="sr-only">{{ .key }}</span>
+      </a>
+    {{ end }}
+  </div>
+
+  <div class="footer--fathom">
+    Proudly respecting your privacy with
+    <a href="https://dvz.one/fathom" target="_blank">Fathom Analytics</a>!
+  </div>
+</footer>

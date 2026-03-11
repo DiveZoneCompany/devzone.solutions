@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div class="hero">
+  {{ .Content }}
+</div>
+
+<div class="home--tiles">
+  {{ $pages := site.Menus.home }}
+  {{ range $pages }}
+  <a href="{{ .URL }}" class="home--tile-link">
+    <div {{ if .Page.Draft -}}draft {{ end -}} class="home--tile home--tile--{{ .Identifier }}">
+      <div class="home--tile-icon">
+        <img src="{{ .Page.Params.homeIcon }}" alt="{{ .Title }} icon" class="home--tile-image">
+      </div>
+      <div class="home--tile-content">
+        <h3>{{ .Title }}</h3>
+      </div>
+    </div>
+  </a>
+  {{ end }}
+</div>
+{{ end }}

@@ -1,0 +1,15 @@
+{{ define "main" }}
+{{ .Content }}
+
+<div class="portfolio--entries">
+  {{ range sort (where site.RegularPages "Section" "portfolio") "Title" "asc" }}
+    <a href="{{ .RelPermalink }}" class="portfolio--link">
+      <div {{ if .Draft }}draft{{ end }} class="portfolio--entry portfolio--entry--{{ .File.TranslationBaseName }}">
+        <div class="portfolio--entry--title">{{ .Title }}</div>
+        <div class="portfolio--entry--logo"><img src="/logos/{{ .File.TranslationBaseName }}.png"></div>
+        <div class="portfolio--entry--content">{{ .Params.role | markdownify }}</div>
+      </div>
+    </a>
+  {{ end }}
+</div>
+{{ end }}

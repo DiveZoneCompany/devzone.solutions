@@ -1,0 +1,5 @@
+<!-- Fathom - beautiful, simple website analytics -->
+{{ if and .Site.Params.analytics hugo.IsProduction }}
+<script src="https://cdn.usefathom.com/script.js" data-site="{{ .Site.Params.analytics }}" defer></script>
+{{ end }}
+<!-- / Fathom -->
