@@ -7,14 +7,12 @@
     "node": ">=18"
   },
   "scripts": {
-    "watch:sass": "sass --no-source-map --pkg-importer=node --watch assets/sass:public/css",
+    "watch:sass": "sass --no-source-map --pkg-importer=node --watch sass:assets/css",
     "watch:hugo": "hugo server -D",
-    "watch:postcss": "postcss public/css/style.css --no-map --dir public/css --watch",
-    "build:sass": "sass --no-source-map --pkg-importer=node assets/sass:public/css",
+    "build:sass": "sass --no-source-map --pkg-importer=node sass:assets/css",
     "build:hugo": "hugo --minify",
-    "build:postcss": "postcss public/css/style.css -r --no-map",
     "start": "npm-run-all build:sass --parallel watch:*",
-    "build": "npm-run-all build:sass build:postcss build:hugo"
+    "build": "npm-run-all build:sass build:hugo"
   },
   "repository": {
     "type": "git",
