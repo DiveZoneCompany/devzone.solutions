@@ -9,7 +9,7 @@ menus:
     parent: 'expertise'
 ---
 
-As an Flutter Developer...
+As a Flutter Developer...
 
 <!--more-->
 

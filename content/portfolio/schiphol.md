@@ -6,5 +6,5 @@ communication: 30% Dutch,70% English
 technology: Java 11,Spring,SOAP,GIT,Jenkins,Message Service,RabbitMQ,JUnit 5,Mockito,Sonar
 ---
 
-As technical lead involved in a newly built project, which connects internal sensor systems, the
+As a Technical Lead, I was involved in a newly built project that connects internal sensor systems and the
 general government Emergency Room system with the Schiphol Fire Department Emergency Room.

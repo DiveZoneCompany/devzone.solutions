@@ -14,9 +14,9 @@ By accessing this website, you are agreeing to be bound by these website Terms a
 
 ### Content Copyright Policy
 
-The site design, logo and video content subject to copyright © 2019-{% year %} by The DiveZone Company
+The site design, logo and content are subject to copyright © 2008-{{< year >}} by The DiveZone Company
 
-User contributions licensed under CC by-SA 3.0 with attribution required.
+User contributions are licensed under CC by-SA 3.0 with attribution required.
 
 ### Disclaimer
 
@@ -32,4 +32,4 @@ DiveZone is committed to protecting intellectual property rights. DiveZone stric
 
 ### Governing Law
 
-Any claim relating to the DiveZone website shall be governed by the laws of The Netherlands without regard to its conflict of law provisions. General Terms and Conditions apply to the Use of a Web Site.
+Any claim relating to the DiveZone website shall be governed by the laws of The Netherlands without regard to its conflict of law provisions. General Terms and Conditions apply to the use of a website.

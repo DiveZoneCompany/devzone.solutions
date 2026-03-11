@@ -14,4 +14,4 @@ DevZone Solutions ("DevZone" "we" or "us") is committed to protecting your priva
 
 If you do not consent to the collection and use of information from or about you in accordance with this Privacy Policy, then you are not permitted to use this site or any services provided on **[https://devzone.solutions](https://devzone.solutions/?utm_source=devzone.solutions&utm_medium=link&utm_campaign=internal&utm_content=privacy_link)**.
 
-While protecting your privacy, but still gather some statistics we are proudly using and promoting **[Fathom Analytics](https://dvz.one/fathom)** for our website visitor statistics.
+While protecting your privacy, to still gather some statistics, we proudly use and promote **[Fathom Analytics](https://dvz.one/fathom)** for our website visitor statistics.
