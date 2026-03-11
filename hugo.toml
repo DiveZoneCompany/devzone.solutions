@@ -23,3 +23,11 @@ disableKinds = ["rss"]
 
 [build]
   writeStats = true
+
+[module]
+  [[module.mounts]]
+    source = 'node_modules/@divezone/divezone-web-styles/static'
+    target = 'static'
+  [[module.mounts]]
+    source = 'static'
+    target = 'static'
