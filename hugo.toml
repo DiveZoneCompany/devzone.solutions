@@ -6,17 +6,6 @@ enableGitInfo = true
 enableRobotsTXT = true
 disableKinds = ["rss"]
 
-[params]
-  author = "DevZone Solutions"
-  description = "DevZone Solutions"
-  keywords = [
-    "DevZone",
-    "DevZone Solutions",
-    "DevZone ONE",
-    "DevZone 1"
-  ]
-  analytics = "DLBPYCZX"
-
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

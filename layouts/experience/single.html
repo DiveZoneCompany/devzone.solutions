@@ -3,41 +3,41 @@
 
 <div class="experience--categories">
 
-  {{ range .Site.Data.experience }}
+  {{ range hugo.Data.experience }}
 
-    <table>
-      <thead>
-        <tr>
-          <th class="experience--category-label">{{ .label }}</th>
-          <th class="experience--category-year">Recent Year</th>
-          <th class="experience--category-years">Years</th>
-          <th class="experience--category-level">Level</th>
-        </tr>
-      </thead>
-      <tbody>
-        {{ $sortedItems := sort .items "years" "desc" }}
-        {{ $sortedItems = sort $sortedItems "recentYear" "desc" }}
-        {{ range $sortedItems }}
-          <tr>
-            <td class="experience--category-label">
-              {{ .mainKeyword }}
-              {{ if .description }}
-                <div class="experience--category-desc">{{ .description }}</div>
-              {{ end }}
-            </td>
-            <td class="experience--category-year">{{ .recentYear }}</td>
-            <td class="experience--category-years">{{ .years }}</td>
-            <td class="experience--category-level">
-              {{ if gt .level 0 }}
-                <progress value="{{ .level }}" max="10"></progress>
-                {{ else }}
-                not relevant
-              {{ end }}
-            </td>
-          </tr>
-        {{ end }}
-      </tbody>
-    </table>
+  <table>
+    <thead>
+      <tr>
+        <th class="experience--category-label">{{ .label }}</th>
+        <th class="experience--category-year">Recent Year</th>
+        <th class="experience--category-years">Years</th>
+        <th class="experience--category-level">Level</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{ $sortedItems := sort .items "years" "desc" }}
+      {{ $sortedItems = sort $sortedItems "recentYear" "desc" }}
+      {{ range $sortedItems }}
+      <tr>
+        <td class="experience--category-label">
+          {{ .mainKeyword }}
+          {{ if .description }}
+          <div class="experience--category-desc">{{ .description }}</div>
+          {{ end }}
+        </td>
+        <td class="experience--category-year">{{ .recentYear }}</td>
+        <td class="experience--category-years">{{ .years }}</td>
+        <td class="experience--category-level">
+          {{ if gt .level 0 }}
+          <progress value="{{ .level }}" max="10"></progress>
+          {{ else }}
+          not relevant
+          {{ end }}
+        </td>
+      </tr>
+      {{ end }}
+    </tbody>
+  </table>
   {{ end }}
 
 </div>
