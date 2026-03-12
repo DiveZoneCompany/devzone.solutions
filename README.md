@@ -1,7 +1,6 @@
 # DEVZONE.SOLUTIONS
 
 This is the source code for the DevZone Solutions website.
-It's based on our 11ty starter template which you can find on GitHub (https://github.com/DevZoneOne/starter.eleventy)
 
 ## See improvements?
 

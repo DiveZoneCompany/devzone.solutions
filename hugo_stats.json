@@ -80,18 +80,22 @@
       "logo--pretitle",
       "logo--titlePart1",
       "logo--titlePart2",
+      "main--404",
       "main--_index",
       "main--about",
       "main--af-klm",
+      "main--angular",
       "main--bmg",
       "main--copyright",
       "main--defensie",
       "main--europeana",
       "main--experience",
       "main--expertise",
+      "main--flutter",
       "main--guidelines",
       "main--home",
       "main--ictu",
+      "main--java",
       "main--leaseplan",
       "main--malmberg",
       "main--ns",
@@ -100,6 +104,8 @@
       "main--privacy",
       "main--rabobank",
       "main--schiphol",
+      "main--scrum",
+      "main--techlead",
       "main--terms",
       "nav--main",
       "nav--sub",
@@ -129,6 +135,7 @@
       "sr-only"
     ],
     "ids": [
+      "certification",
       "content-copyright-policy",
       "disclaimer",
       "dive-instructor",
@@ -137,6 +144,7 @@
       "limitations",
       "my-work-experience-so-far",
       "personal-life",
+      "scrum---my-point-of-view",
       "social-bluesky",
       "social-facebook",
       "social-github",
@@ -144,7 +152,9 @@
       "social-linkedin",
       "social-linkedin-me",
       "social-threads",
-      "welcome-to-devzone-solutions"
+      "technologies",
+      "welcome-to-devzone-solutions",
+      "whats-in-the-name"
     ]
   }
 }
