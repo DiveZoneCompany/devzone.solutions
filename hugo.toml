@@ -1,6 +1,7 @@
 baseURL = "https://devzone.solutions/"
 languageCode = "en-us"
 title = "DevZone Solutions"
+theme = 'divezone'
 enableGitInfo = true
 enableRobotsTXT = true
 disableKinds = ["rss"]
