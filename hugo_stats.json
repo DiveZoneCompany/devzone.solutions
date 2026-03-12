@@ -36,8 +36,12 @@
       "ul"
     ],
     "classes": [
+      "-ZONE",
+      "BLUE",
+      "ZONE",
       "active",
       "back",
+      "blue",
       "experience--categories",
       "experience--category-desc",
       "experience--category-label",
@@ -75,6 +79,8 @@
       "home--tile-link",
       "home--tiles",
       "logo",
+      "logo--",
+      "logo--blue",
       "logo--green",
       "logo--posttitle",
       "logo--pretitle",
