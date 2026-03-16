@@ -1,9 +1,5 @@
 ---
 title: Intermediaries Guidelines
-type: page
-
-layout: page
-tags: header
 menus:
   main:
     identifier: 'guidelines'

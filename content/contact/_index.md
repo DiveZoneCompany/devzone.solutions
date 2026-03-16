@@ -1,10 +1,5 @@
 ---
-type: page
-
-layout: page
 title: Contact
-tags: 
- - home
 homeIcon: /images/icons/contact.svg
 menus:
   main:

@@ -1,9 +1,7 @@
 ---
-type: experience
-
-layout: experience
 title: Experience
-tags: ['home']
+type: experience
+layout: experience
 homeIcon: /images/icons/experience.svg
 menus:
   main:

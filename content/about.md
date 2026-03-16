@@ -1,7 +1,4 @@
 ---
-type: page
-
-layout: page
 title: Who am I
 tags: ['header', 'home']
 homeIcon: /images/icons/about.svg
