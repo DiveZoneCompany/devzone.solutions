@@ -1,6 +1,5 @@
 ---
 title: Angular Front-end Development
-draft: true
 keywords:
   - Angular
   - LIT

@@ -1,6 +1,5 @@
 ---
 title: Mobile Development
-draft: true
 menus:
   main:
     identifier: 'mobile'
