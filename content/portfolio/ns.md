@@ -1,7 +1,12 @@
 ---
 title: NS
 role: Technical Lead / Senior Fullstack Developer
-tags: NS, Nederlandse Spoorwegen, Dutch Railways, Technical Lead, Senior Fullstack Developer
+tags: 
+  - NS
+  - Nederlandse Spoorwegen
+  - Dutch Railways
+  - Technical Lead
+  - Senior Fullstack Developer
 communication: Dutch
 technology: Java 11,Spring,GIT,GraphQL,Angular,Typescript,Karma,HTML,SCSS,Spectator,Cypres,Azure,Kubernetes
 ---

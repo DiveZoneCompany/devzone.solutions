@@ -1,7 +1,9 @@
 ---
 title: Malmberg
 role: Senior Java Developer
-tags: Malmberg, Senior Java Developer
+tags: 
+  - Malmberg
+  - Senior Java Developer
 communication: Dutch
 technology: Java 8,AngularJS,Vert.x,JSON,Scrum/Agile,Web services
 ---

@@ -1,7 +1,12 @@
 ---
 title: Bank Mendes Gans
 role: Senior Fullstack Developer / Scrum Master
-tags: BMG, Bank Mendes Gans, ING, scrum master, Senior Fullstack Developer
+tags: 
+  - BMG
+  - Bank Mendes Gans
+  - ING
+  - Scrum Master
+  - Senior Fullstack Developer
 communication: English
 technology: Java 11-21,Spring Boot 3,GIT,GraphQL,LIT,JavaScript,Karma,HTML,CSS,Azure,Kubernetes
 ---

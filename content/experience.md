@@ -1,7 +1,6 @@
 ---
 title: Experience
 type: experience
-layout: experience
 homeIcon: /images/icons/experience.svg
 menus:
   main:

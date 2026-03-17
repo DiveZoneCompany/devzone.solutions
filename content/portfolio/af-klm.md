@@ -1,7 +1,10 @@
 ---
 title: AF/KLM Information Services
 role: Technical Lead (Full stack team) / UX Designer
-tags: KLM, AF/KLM Information Services, Technical Lead
+tags: 
+  - KLM
+  - AF/KLM Information Services
+  - Technical Lead
 communication: 10% Dutch,90% English
 technology: Java,SOAP,REST,XML,JSON,API,Scrum/Agile,Spring Framework,Spring Boot,AngularJS,Angular,Oracle DB,Tomcat
 ---

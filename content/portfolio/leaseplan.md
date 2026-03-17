@@ -1,7 +1,11 @@
 ---
 title: Leaseplan Digital
 role: Technical Lead / Senior Java Developer
-tags: Leaseplan, Leaseplan Digital, Technical Lead, Senior Java Developer
+tags: 
+  - Leaseplan
+  - Leaseplan Digital
+  - Technical Lead
+  - Senior Java Developer
 communication: English
 technology: Java 8,Spring,REST,Hybris,GIT,BitBucket,GitLab CI/CD
 ---

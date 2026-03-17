@@ -1,6 +1,5 @@
 ---
 title: Who am I
-tags: ['header', 'home']
 homeIcon: /images/icons/about.svg
 menus:
   main:

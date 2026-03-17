@@ -1,7 +1,9 @@
 ---
 title: Europeana Foundation
 role: Lead Java Developer / Architect
-tags: Lead Java Developer, Architect
+tags: 
+  - Lead Java Developer
+  - Architect
 communication: English
 technology: Java,XML,JSON,Apache SOLR,Scrum/Agile,Spring 3,PostgreSQL,MongoDB
 ---

@@ -1,7 +1,10 @@
 ---
 title: Rabobank Online
 role: Senior Java Developer
-tags: Rabobank Online, Rabobank, Senior Java Developer
+tags: 
+  - Rabobank Online
+  - Rabobank
+  - Senior Java Developer
 communication: 20% Dutch,80% English
 technology: Java,XML,JSON,Scrum/Agile,Spring 3,JMS,Web services,Websphere 8
 ---
