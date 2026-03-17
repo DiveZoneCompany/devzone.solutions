@@ -1,6 +1,10 @@
 ---
-title: Front-end Angular Development
+title: Angular Front-end Development
 draft: true
+keywords:
+  - Angular
+  - LIT
+  - React
 menus:
   main:
     identifier: 'angular'
@@ -9,11 +13,9 @@ menus:
     parent: 'expertise'
 ---
 
-As an Angular Developer...
+As an Front-end Developer...
 
 <!--more-->
-
-More details...
 
 ### Technologies
 

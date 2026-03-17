@@ -1,0 +1,7 @@
+<a href="{{ .RelPermalink }}" class="portfolio--link">
+    <div {{ if .Draft }}draft{{ end }} class="portfolio--entry portfolio--entry--{{ .File.TranslationBaseName }}">
+        <div class="portfolio--entry--title">{{ .Title }}</div>
+        <div class="portfolio--entry--logo"><img src="/logos/{{ .File.TranslationBaseName }}.png"></div>
+        <div class="portfolio--entry--content">{{ .Params.role | markdownify }}</div>
+    </div>
+</a>

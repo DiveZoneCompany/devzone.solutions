@@ -6,6 +6,10 @@ enableGitInfo = true
 enableRobotsTXT = true
 disableKinds = ["rss","taxonomy","term"]
 
+[params]
+  title = "DevZone Solutions"
+  description = "DevZone Solutions"
+
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]

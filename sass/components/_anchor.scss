@@ -1,0 +1,4 @@
+a:not([href^='#']):not([href*='dvz.one']):not([href^='/']):not(.fab):after {
+  font-family: "Font Awesome 6 Pro";
+  content: ' \e60e';
+}
