@@ -38,7 +38,7 @@
         transition: transform var(--transition-speed) cubic-bezier(0.175, 0.885, 0.32, 1.275);
 
         &:hover {
-            transform: translateY(-8px);
+            transform: scale(1.1);
 
             .home--tile {
                 box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
@@ -50,7 +50,7 @@
                 }
 
                 .home--tile-icon .home--tile-image {
-                    transform: scale(1.1);
+                    transform: scale(1.2);
                     filter: drop-shadow(0 4px 6px rgba(var(--theme-primary-rgb, 0, 0, 0), 0.3));
                 }
             }
