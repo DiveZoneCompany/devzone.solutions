@@ -2,7 +2,7 @@
 {{ .Content }}
 
 <div class="portfolio--entries">
-  {{ range sort (where site.RegularPages "Section" "portfolio") "Title" "asc" }}
+  {{ range .Pages.ByTitle }}
     {{ .Render "card" }}
   {{ end }}
 </div>

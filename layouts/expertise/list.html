@@ -1,17 +1,15 @@
 {{ define "main" }}
 {{ .Content }}
 
-{{ range where site.Menus.main "Name" "Expertise"}}
-{{ range .Children }}
+{{ range .Pages.ByWeight }}
 <section class="expertise--item">
-    <a href="{{ .URL }}" class="expertise--item--link">
+    <a href="{{ .RelPermalink }}" class="expertise--item--link">
         <h3>
             {{ .Title }}
         </h3>
     </a>
-    {{ .Page.Summary }}
+    {{ .Summary }}
 </section>
-{{ end }}
 {{ end }}
 
 {{ end }}

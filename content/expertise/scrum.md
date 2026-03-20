@@ -1,5 +1,6 @@
 ---
 title: Scrum Master
+weight: 88
 menus:
   main:
     identifier: 'scrum'

@@ -4,8 +4,7 @@
 </div>
 
 <div class="home--tiles">
-  {{ $pages := site.Menus.home }}
-  {{ range $pages }}
+  {{ range site.Menus.home }}
   <a href="{{ .URL }}" class="home--tile-link">
     <div {{ if .Page.Draft -}}draft {{ end -}} class="home--tile home--tile--{{ .Identifier }}">
       <div class="home--tile-icon">

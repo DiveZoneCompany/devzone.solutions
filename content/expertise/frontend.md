@@ -1,14 +1,15 @@
 ---
-title: Angular Front-end Development
+title: Front-end Development
+weight: 33
 keywords:
   - Angular
   - LIT
   - React
 menus:
   main:
-    identifier: 'angular'
+    identifier: 'frontend'
     name: 'Front-end'
-    weight: 3
+    weight: 33
     parent: 'expertise'
 ---
 
@@ -18,5 +19,9 @@ As an Front-end Developer...
 
 ### Technologies
 
-- Angular 18.x including signals
-- ...
+- Angular
+- CSS / SASS / SCSS
+- TypeScript
+- JavaScript
+
+_(This is not a complete list)_

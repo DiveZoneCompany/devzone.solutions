@@ -1,10 +1,11 @@
 ---
 title: Tech Lead
+weight: 11
 menus:
   main:
     identifier: 'techlead'
     name: 'Tech Lead'
-    weight: 1
+    weight: 11
     parent: 'expertise'
 ---
 
