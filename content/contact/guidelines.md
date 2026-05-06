@@ -1,5 +1,6 @@
 ---
 title: Intermediaries Guidelines
+draft: true
 menus:
   main:
     identifier: 'guidelines'

@@ -20,8 +20,13 @@ Hello! My name is Willem-Jan Boogerd.
 
 I'm not going to put all my work experience on this page, but I have basically been a consultant my entire career.
 I started during my studies with small projects for local companies. In 1999, I started working for Ordina as a Java developer.
+
 I left that company in 2003 looking for a more personal experience and joined a small consultancy company called Inology.
 In 2008, I decided it was time to work as an independent freelancer and brought my own company back to life, earlier under the name eLedge and later rebranded as DevZone Solutions.
+
+Due to unclear tax and government laws, I had to stop my career as a freelancer and joined [🍋 __Citrus IT__](https://www.citrus-it.nl) as a consultant in May 2026. 
+
+__DevZone Solutions is continuing for internal application development for [The DiveZone Company](https://dvz.one/company) only.__
 
 ### Dive Instructor
 

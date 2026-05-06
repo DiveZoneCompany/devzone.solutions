@@ -1,5 +1,5 @@
 baseURL = "https://devzone.solutions/"
-languageCode = "en-us"
+locale = "en-us"
 title = "DevZone Solutions"
 theme = 'divezone'
 enableGitInfo = true

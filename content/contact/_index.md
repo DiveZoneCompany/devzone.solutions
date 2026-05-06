@@ -1,6 +1,7 @@
 ---
 title: Contact
 homeIcon: /images/icons/contact.svg
+draft: true
 menus:
   main:
     identifier: 'Contact'
