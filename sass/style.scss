@@ -1,9 +1,7 @@
-@use "pkg:@divezone/divezone-web-styles" as dz;
+@use '../themes/divezone/sass/index.scss' as dz;
 @use "sass:map";
 @use "components";
 @use "pages";
-
-// @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap');
 
 :root {
   --transition-speed: 0.3s;
