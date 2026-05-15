@@ -1,6 +1,7 @@
 {
   "title": "DevZone Solutions",
   "url": "https://devzone.solutions/",
+  "theme": "devzone",
   "language": "en",
   "meta": {
     "author": "DevZone Solutions",
@@ -11,6 +12,5 @@
       "DevZone ONE",
       "DevZone 1"
     ]
-  },
-  "analytics": "DLBPYCZX"
+  }
 }
