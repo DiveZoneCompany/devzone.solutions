@@ -21,24 +21,17 @@
 <div class="portfolio--prev-next">
   <div class="prev">
     {{ if $previousPost }}
-      <a href="{{ $previousPost.RelPermalink }}">
-        <i class="fa-thin fa-hand-point-left"></i>
-        {{ $previousPost.Title }}</a>
+      <a href="{{ $previousPost.RelPermalink }}">◀️ {{ $previousPost.Title }}</a>
     {{ end }}
     &nbsp;
   </div>
   <div class="back">
-    <a href="/portfolio">
-      <i class="fa-thin fa-hand-point-up"></i>
-      Back to Portfolio overview</a>
+    <a href="/portfolio">🔼 Back to Portfolio overview</a>
   </div>
   <div class="next">
     &nbsp;
     {{ if $nextPost }}
-    <a href="{{ $nextPost.RelPermalink }}">
-      {{ $nextPost.Title }}
-      <i class="fa-thin fa-hand-point-right"></i>
-    </a>
+    <a href="{{ $nextPost.RelPermalink }}">{{ $nextPost.Title }} ▶️</a>
     {{ end }}
   </div>
 </div>
